@@ -1,0 +1,230 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+
+        <net.wash8.customview.CustomTitle
+                android:id="@+id/custom_title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+
+        <RelativeLayout
+                android:id="@+id/rl_addcar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:clickable="true"
+                >
+
+                <ImageView
+                        android:id="@+id/iv_car"
+                        android:layout_width="match_parent"
+                        android:layout_height="230dp"
+                        android:scaleType="centerCrop"
+                        android:adjustViewBounds="true"
+                        android:background="@drawable/photo_car"/>
+
+                <TextView
+                        android:id="@+id/tv_carnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textSize="20dp"
+                        android:paddingLeft="20dp"
+                        android:paddingBottom="10dp"
+                        android:layout_alignBottom="@+id/iv_car"
+                        android:textColor="#ffff"
+                        />
+
+                <ImageView
+                        android:id="@+id/ib_addcar"
+                        android:layout_width="60dp"
+                        android:layout_height="60dp"
+                        android:background="@drawable/icon_addcar"
+                        android:layout_marginRight="30dp"
+                        android:layout_alignTop="@+id/tv_carnumber"
+                        android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dividing_line"/>
+
+                <RelativeLayout
+                        android:id="@+id/rl_washplace_in"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:clickable="true"
+                        android:onClick="onClick">
+
+                        <ImageView
+                                android:id="@+id/iv_icwashtime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/icon_order_left_hei"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/icon_washplace"
+                                android:paddingLeft="20dp"
+                                />
+
+                        <TextView
+                                android:id="@+id/iv_txtwashtime"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="洗车地点"
+                                android:textSize="18sp"
+                                android:layout_toRightOf="@+id/iv_icwashtime"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="20dp"/>
+                        <ImageView
+                                android:id="@+id/iv_icon_check"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/icon_order_hei"
+                                android:background="@drawable/icon_unchecked"
+                                android:layout_toRightOf="@+id/iv_txtwashtime"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="20dp"
+                                />
+                        <ImageView
+                                android:id="@+id/washplace_in"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/icon_order_in_hei"
+                                android:src="@drawable/right_icon"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignBottom="@+id/iv_icwashtime"
+                                android:paddingRight="20dp"
+                                />
+                </RelativeLayout>
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dividing_line"/>
+
+                <RelativeLayout
+                        android:id="@+id/rl_washtime_in"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:onClick="onClick">
+
+                        <ImageView
+                                android:id="@+id/iv_icwashplace"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/icon_order_left_hei"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/icon_washtime"
+                                android:paddingLeft="20dp"
+                                />
+
+                        <TextView
+                                android:id="@+id/iv_txtwashplace"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="洗车时间"
+                                android:textSize="18sp"
+                                android:layout_toRightOf="@+id/iv_icwashplace"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="20dp"/>
+                        <ImageView
+                                android:id="@+id/iv_icon_check1"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/icon_order_hei"
+                                android:background="@drawable/icon_unchecked"
+                                android:layout_toRightOf="@+id/iv_txtwashplace"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="20dp"
+                                />
+                        <ImageView
+                                android:id="@+id/washtime_in"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/icon_order_in_hei"
+                                android:src="@drawable/right_icon"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignBottom="@+id/iv_icwashplace"
+                                android:paddingRight="20dp"
+                                />
+                </RelativeLayout>
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dividing_line"/>
+
+                <RelativeLayout
+                        android:id="@+id/rl_serviceitem_in"
+                        android:layout_width="match_parent"
+                        android:layout_height="50dp"
+                        android:onClick="onClick">
+
+                        <ImageView
+                                android:id="@+id/iv_icservicelist"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/icon_order_left_hei"
+                                android:layout_centerVertical="true"
+                                android:src="@drawable/icon_servicelist"
+                                android:paddingLeft="20dp"
+                                />
+
+                        <TextView
+                                android:id="@+id/iv_txtservicelist"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="服务列表"
+                                android:textSize="18sp"
+                                android:layout_toRightOf="@+id/iv_icservicelist"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="20dp"/>
+                        <ImageView
+                                android:id="@+id/iv_icon_check2"
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/icon_order_hei"
+                                android:background="@drawable/icon_unchecked"
+                                android:layout_toRightOf="@+id/iv_txtservicelist"
+                                android:layout_centerVertical="true"
+                                android:layout_marginLeft="20dp"
+                                />
+                        <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="@dimen/icon_order_in_hei"
+                                android:src="@drawable/right_icon"
+                                android:layout_alignParentRight="true"
+                                android:layout_alignBottom="@+id/iv_txtservicelist"
+                                android:paddingRight="20dp"
+                                />
+                </RelativeLayout>
+
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dividing_line"/>
+
+        </LinearLayout>
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+        <LinearLayout
+                android:id="@+id/ll_submit"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:layout_gravity="bottom"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:background="@color/submit_bg">
+
+                <Button
+                        android:id="@+id/btn_submit_place"
+                        android:layout_width="@dimen/btn_wid_50"
+                        android:layout_height="@dimen/btn_hei_30"
+                        android:background="@drawable/icon_btn_submit_bg"
+                        android:text="提交"
+                        android:textColor="#ffffff"
+                        android:onClick="onClick"
+                        />
+        </LinearLayout>
+        </RelativeLayout>
+</LinearLayout>

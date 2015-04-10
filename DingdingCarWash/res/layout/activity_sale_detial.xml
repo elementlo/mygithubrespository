@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <net.wash8.customview.CustomTitle
+            android:id="@+id/customTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></net.wash8.customview.CustomTitle>
+    <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="20dp">
+
+                <ImageView
+                        android:id="@+id/iv_ceshitupian"
+                        android:layout_width="160dp"
+                        android:layout_height="160dp"
+                        android:background="@drawable/pic_serviceitem"
+                        />
+
+                <LinearLayout
+                        android:layout_marginLeft="20dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="160dp"
+                        android:orientation="vertical"
+                        android:layout_toRightOf="@+id/iv_ceshitupian">
+
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1"
+                            >
+
+                        <TextView
+                                android:id="@+id/tv_yongshi"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="用时"
+                                />
+
+                        <TextView
+                                android:id="@+id/tv_timecost"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:singleLine="true"
+                                android:text="text"/>
+                    </LinearLayout>
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+                        <TextView
+                                android:id="@+id/tv_renyuan"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="人员"
+                                />
+
+                        <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:singleLine="true"
+                                android:text="2人"/>
+                    </LinearLayout>
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+                        <TextView
+                                android:id="@+id/tv_zhengjia"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="正价"
+                                />
+
+                        <TextView
+                                android:id="@+id/tv_originalFee"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:singleLine="true"
+                                android:text="text"/>
+                    </LinearLayout>
+                    <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="0dp"
+                            android:layout_weight="1">
+                        <TextView
+                                android:id="@+id/tv_youhui"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:text="优惠"
+                                />
+
+                        <TextView
+                                android:id="@+id/tv_currentFee"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_marginLeft="10dp"
+                                android:singleLine="true"
+                                android:text="text"/>
+                    </LinearLayout>
+
+                </LinearLayout>
+
+            </RelativeLayout>
+            <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:gravity="center">
+                <TextView
+                        android:id="@+id/tv_fuwujieshao"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="服务介绍"
+                        android:textSize="18dp"/>
+                <ImageView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/dividing_line"
+                        android:layout_centerVertical="true"
+                        android:layout_toRightOf="@+id/tv_fuwujieshao"/>
+            </RelativeLayout>
+            <TextView
+                    android:id="@+id/tv_title"
+                    android:layout_width="wrap_content"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginLeft="20dp"
+                    android:layout_height="wrap_content"
+                    android:text=""/>
+            <TextView
+                    android:id="@+id/tv_content"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="20dp"
+                    android:layout_marginRight="20dp"
+                    android:layout_marginBottom="20dp"
+                    android:layout_marginTop="20dp"
+                    android:text=""/>
+            </LinearLayout>
+    </ScrollView>
+</LinearLayout>

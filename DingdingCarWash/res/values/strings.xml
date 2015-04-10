@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">爱洗吧</string>
+
+    <string name="car_num">车牌号</string>
+    <string name="car_brand">车品牌</string>
+    <string name="car_color">车颜色</string>
+    <string name="car_image">车照片</string>
+    <string name="enter_car_num">请输入车牌号</string>
+    <string name="choose_car_brand">请选择您车辆的品牌</string>
+    <string name="choose_car_color">请选择您车辆的颜色</string>
+    <string name="choose_car_image">请选择您车辆的照片</string>
+    <string name="search">请您填写您车辆的小区或楼盘</string>
+
+    <string name="black">黑色</string>
+    <string name="white">白色</string>
+    <string name="red">红色</string>
+    <string name="blue">蓝色</string>
+    <string name="sliver_gray">银色</string>
+    <string name="dark_gray">深灰色</string>
+    <string name="yellow">黄色</string>
+    <string name="green">绿色</string>
+    <string name="champagne">香槟色</string>
+    <string name="coffee">咖啡色</string>
+    <string name="purple">紫色</string>
+    <string name="orange">橙色</string>
+    <string name="scan_text">将二维码放入框内, 即可自动扫描</string>
+</resources>

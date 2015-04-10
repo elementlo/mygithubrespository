@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+          package="net.wash8"
+          android:versionCode="1"
+          android:versionName="1.0">
+
+    <uses-sdk
+            android:minSdkVersion="8"
+            android:targetSdkVersion="17"/>
+
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+    <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+    <uses-permission android:name="android.permission.CHANGE_CONFIGURATION"/>
+    <uses-permission android:name="android.permission.WAKE_LOCK"/> 
+    <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+    <uses-permission android:name="android.permission.MOUNT_UNMOUNT_FILESYSTEMS" />
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <application
+            android:label="@string/app_name"
+            android:icon="@drawable/icon"
+            android:theme="@style/AppTheme"
+            android:allowBackup="true">
+        <meta-data
+                android:name="com.amap.api.v2.apikey"
+                android:value="b5b8fb2972eb87f219377f42afa39be0"/>
+
+        <activity
+                android:name=".activity.HomeActivity"
+                android:label="@string/app_name">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity
+                android:name=".activity.OrderActitity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.WashTimeActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.CarInfoActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.MyCarListActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.PoiSearchActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.ServiceItemsActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.ServiceDetailActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.PayPageActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.MineActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.AboutmeActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.SexSelectActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.MyCarActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.MemberActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.MyOrderActivity"
+                android:label="@string/app_name">
+        </activity>
+
+        <activity
+                android:name=".activity.OrderItemActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.ComparisonActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.CouponActivity"
+                android:label="@string/app_name">
+        </activity>
+
+        <activity
+                android:name=".activity.ServicesIntroduceActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.SalePriceActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.SalePriceDetailActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.CommentActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.AboutActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.RechargeRecodeActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.RegisterActivity"
+                android:label="@string/app_name">
+        </activity>
+        <activity
+                android:name=".activity.RegisterIndexActivity"
+                android:label="@string/app_name">
+        </activity>
+
+    </application>
+</manifest>

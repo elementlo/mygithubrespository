@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="70dp"
+              android:minHeight="?android:attr/listPreferredItemHeight"
+              android:descendantFocusability="blocksDescendants">
+<TextView
+        android:id="@+id/tv_service_price"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerVertical="true"
+        android:ems="3"
+        android:text="text"
+        android:layout_marginLeft="20dp"
+        android:textColor="@color/btn_orange"/>
+    <TextView
+            android:id="@+id/tv_servicedetail"
+            android:layout_toRightOf="@+id/tv_service_price"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="text"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="10dp"
+            />
+    <TextView
+            android:id="@+id/tv_yixuan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="已选"
+            android:textColor="#99D0F1"
+            android:layout_marginRight="20dp"
+            android:layout_alignTop="@+id/tv_service_price"
+            android:layout_toLeftOf="@+id/btn_service_select"
+            android:visibility="invisible"/>
+    <Button
+            android:id="@+id/btn_service_select"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:text="选择"
+            style="@style/btn_commom"
+            android:layout_marginRight="@dimen/padding_20"
+            android:focusable="false"
+            />
+</RelativeLayout>

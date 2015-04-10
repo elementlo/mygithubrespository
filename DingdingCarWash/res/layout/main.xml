@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="fill_parent"
+              android:layout_height="fill_parent">
+
+    <net.wash8.customview.CustomTitle
+            android:id="@+id/custom_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:orientation="horizontal"
+            >
+
+        <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/iv_order"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:src="@drawable/order"
+                android:onClick="onClick"
+                />
+        <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:background="@drawable/dividing_line_vertical"/>
+
+        <ImageView
+                android:layout_gravity="center"
+                android:id="@+id/iv_mine"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:src="@drawable/mine"
+                android:onClick="onClick"
+                />
+
+<!--        <ImageView
+                android:id="@+id/iv_shop"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:src="@drawable/shop"
+                android:onClick="onClick"
+                />-->
+
+    </LinearLayout>
+
+    <!--<LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:paddingTop="10dp"
+            >
+
+        <ImageView
+                android:id="@+id/iv_sign"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:src="@drawable/sign"
+                android:onClick="onClick"
+                />
+
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:src="@drawable/add"
+                />
+
+        <ImageView
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="90dp"
+                android:src="@drawable/empty"
+                />
+
+    </LinearLayout>-->
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <android.support.v4.view.ViewPager
+                android:id="@+id/vp_pattern"
+                android:layout_width="match_parent"
+                android:layout_height="123dp"/>
+
+        <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="10dp">
+
+            <ImageView
+                    android:id="@+id/iv1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/dot_empty"/>
+
+            <ImageView
+                    android:id="@+id/iv2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/dot_empty"/>
+
+            <ImageView
+                    android:id="@+id/iv3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/dot_empty"/>
+        </LinearLayout>
+    </RelativeLayout>
+
+    <ListView
+            android:id="@+id/lv_indexlist"
+            android:layout_width="wrap_content"
+            android:layout_height="fill_parent"
+            android:footerDividersEnabled="true"></ListView>
+
+</LinearLayout>
+

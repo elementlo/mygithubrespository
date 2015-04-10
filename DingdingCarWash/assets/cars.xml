@@ -1,0 +1,346 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plist version="1.0">
+<key> 热</key>
+<dict>
+	<key>宝马</key>
+	<string>1系|1系M|2系|3系|3系（进口）|3系GT|4系 |5系|5系（进口)|5系GT |6系 |7系 |i3|i8 |M3|M5|M6|X1|X1（进口)|X3|X5|X5 M|X6|X6 M|Z4|</string>
+	<key>奥迪</key>
+	<string>A1 | A3 | A3(进口) | S3  |A4L | A4（进口）|  A5  | S5  A6（进口）|A6L |S6 |Q3 |Q3（进口)|Q5|Q5进口| A7|S7|A8|S8|SQ5 |Q7|TT |TTS |R8|RS5|RS7|</string>
+	<key>奔驰</key>
+	<string>A级|A级AMG|B级|CLA级AMG|CLK级|CLS级|CLS级AMG|CL级|C级|C级（进口|A级AMG|E级|E级（进口)|E级AMG|GL级|GL级AMG|G级|G级AMG|M级 AMG|R级|SLK级|SLK级AMG|SLS级AMG|SL级|SL级AMG|SprinterS级|S级AMG|唯雅诺|唯雅诺（进口）|威霆|威霆（进口）|</string>
+	<key>保时捷</key>
+	<string>911|Boxter|Cayman|Macan |Panamera |卡宴|</string>
+	<key>大众</key>
+	<string>CC|Eos|Passat|POLO|T5|Tiguan|一汽－大众CC|凯路威|夏朗|宝来|宝来经典|尚酷|帕萨特|帕萨特B4|开迪|捷达|朗境|朗行|朗逸|桑塔纳|桑塔纳2000|桑塔纳志俊|桑塔纳经典|甲壳虫|辉腾|迈特威|迈腾|迈腾（进口）|途安|途观|途锐|速腾|UP|</string>
+	<key>本田</key>
+	<string>CRV|CR－Z|INSIGHT|XR－V|凌派|奥德赛|思域|思迪|思铂睿|时韵|杰德|歌诗图|缤智|艾力绅|里程|锋范|雅阁|飞度|飞度（进口）|</string>
+	<key>马自达</key>
+	<string>2|2劲翔|3|3Axela昂科塞拉|3（进口）|3星骋|5|6|6ATENZA阿特兹|8|8（进口）|CX－5|CX－5（进口）|CX－7（进口）|CX－9|MX－5|RX－8|睿翼|</string>
+	<key>比亚迪</key>
+	<string>F0|F3|F3R|F6|G3|G3R|G5|G6|L3|M6|S6|e6|S7|S8|思锐|福莱尔|秦|速锐|</string>
+</dict>
+<key>A</key>
+<dict>
+	<key>奥迪</key>
+	<string>A1 | A3 | A3(进口) | S3  |A4L | A4（进口）|  A5  | S5  A6（进口）|A6L |S6 |Q3 |Q3（进口)|Q5|Q5进口| A7|S7|A8|S8|SQ5 |Q7|TT |TTS |R8|RS5|RS7|</string>
+	<key>阿斯顿·马丁</key>
+	<string>Rapide |V8 Vantage|V12 Vantage | DB9 |Vanquish|</string>
+	<key>阿尔法罗密欧</key>
+	<string>ALFA 156|ALFA 166|ALFA GT|</string>
+</dict>
+<key>B</key>
+<dict>
+	<key>宝马</key>
+	<string> 1系|1系M|2系|3系|3系（进口）|3系GT|4系 |5系|5系（进口)|5系GT |6系 |7系 |i3|i8 |M3|M5|M6|X1|X1（进口)|X3|X5|X5 M|X6|X6 M|Z4| </string>
+	<key>保时捷</key>
+	<string>911|Boxter|Cayman|Macan |Panamera |卡宴|</string>
+	<key>北京汽车</key>
+	<string>E系列 |北京40|</string>
+	<key>北京幻速</key>
+	<string>S2|S3|</string>
+	<key>北汽威旺</key>
+	<string>205|306|307|M20|</string>
+	<key>北汽制造</key>
+	<string>战旗|BJ 212|域胜007|勇士|骑士S12|陆霸|</string>
+	<key>奔驰</key>
+	<string>A级|A级AMG|B级|CLA级AMG|CLK级|CLS级|CLS级AMG|CL级|C级|C级（进口|A级AMG|E级|E级（进口)|E级AMG|GL级|GL级AMG|G级|G级AMG|M级 AMG|R级|SLK级|SLK级AMG|SLS级AMG|SL级|SL级AMG|SprinterS级|S级AMG|唯雅诺|唯雅诺（进口）|威霆|威霆（进口）|</string>
+	<key>奔腾</key>
+	<string>B50|B70|B90|X80|</string>
+	<key>本田</key>
+	<string>CRV|CR－Z|INSIGHT|XR－V|凌派|奥德赛|思域|思迪|思铂睿|时韵|杰德|歌诗图|缤智|艾力绅|里程|锋范|雅阁|飞度|飞度（进口）|</string>
+	<key>比亚迪</key>
+	<string>F0|F3|F3R|F6|G3|G3R|G5|G6|L3|M6|S6|e6|S7|S8|思锐|福莱尔|秦|速锐|</string>
+	<key>标致</key>
+	<string>206|206（进口）|207|207（进口）|301|307|308|308（进口）|408|508|607|2008|3008|4008|RCZ|</string>
+	<key>别克</key>
+	<string>GL8|凯越|君威|君越|新世纪|昂科拉Encore|昂科雷|林荫大道|英朗|荣御|</string>
+	<key>宾利</key>
+	<string>慕尚|欧陆|雅致|飞驰|</string>
+	<key>布加迪</key>
+	<string>威航|</string>
+	<key>巴博斯</key>
+	<string> CLS级|S级|M级|SLK级|</string>
+	<key>宝骏</key>
+	<string>乐驰|610|630|730|</string>
+</dict>
+<key>C</key>
+<dict>
+	<key>昌河</key>
+	<string>福瑞达|福瑞达M50|爱迪尔|</string>
+	<key>长安</key>
+	<string>CS35|CS75|CX20|CX30|V802|奔奔|奔奔i|奔奔love|奔奔mini|志翔|悦翔|悦翔V3|悦翔V5|杰勋|睿骋|致尚XT|逸动|</string>
+	<key>长安商用</key>
+	<string>长安V5|欧力威|长安之星|长安之星2|长安之星7|长安之星9|长安之星S460|欧诺|金牛星|长安星光|长安星光4500|睿行|尊行|</string>
+	<key>长城</key>
+	<string>C20R|C30|C50|M1|M2|M4|V80|凌傲|嘉誉|炫丽|精灵|赛弗|赛影|酷熊|</string>
+	<key>成功汽车</key>
+	<string>V1|</string>
+</dict>
+<key>D</key>
+<dict>
+	<key>DS</key>
+	<string>DS3|DS4|DS5|DS5（进口）|DS 5LS|DS6|</string>
+	<key>大发</key>
+	<string>森雅|</string>
+	<key>大众</key>
+	<string>CC|Eos|Passat|POLO|T5|Tiguan|一汽－大众CC|凯路威|夏朗|宝来|宝来经典|尚酷|帕萨特|帕萨特B4|开迪|捷达|朗境|朗行|朗逸|桑塔纳|桑塔纳2000|桑塔纳志俊|桑塔纳经典|甲壳虫|辉腾|迈特威|迈腾|迈腾（进口）|途安|途观|途锐|速腾|UP|</string>
+	<key>道奇</key>
+	<string>Ram|凯领|酷威|酷搏|锋哲|</string>
+	<key>东风</key>
+	<string>御风 |风行 |俊风CV03|</string>
+	<key>东风风度</key>
+	<string>奥丁|帅客|御轩 |俊风|</string>
+	<key>东风风神</key>
+	<string>|A30|A60|H30|风神30 |风神AX7|</string>
+	<key>东风风行</key>
+	<string>景逸 |景逸SUV|景逸X3|景逸X5 |菱智|</string>
+	<key>东风小康</key>
+	<string>C35|C37|K01|K02|K06|K07|K07II|K17|V07S|风光|</string>
+	<key>东南</key>
+	<string>V3菱悦|V5菱致|V6菱仕 |希旺|得利卡|菱帅|</string>
+</dict>
+<key>F</key>
+<dict>
+	<key>法拉利</key>
+	<string>360|458|575M|599|612|California|F12berlinetta|F430|FF| </string>
+	<key>菲亚特</key>
+	<string>500|Ottimo|乌诺|博悦|周末风|朋多|派力奥|派朗|菲翔|菲跃|西耶耶|领雅|</string>
+	<key>丰田</key>
+	<string>86|FJ酷路泽|HIACE|RAV4|RAV4（进口）|Sienna|Venza威飒|Yaris L致炫|佳美|兰德酷路泽|兰德酷路泽（进口)|凯美瑞|凯美瑞（海外）|卡罗拉|埃尔法|威驰|普拉多|普拉多（进口）|普瑞维亚|普锐斯|杰路驰|汉兰达|汉兰达（进口）|特锐|皇冠|红杉|花冠|逸致|锐志|雅力士|雷凌|</string>
+	<key>福迪</key>
+	<string>小超人|探索者6|探索者II|探索者III|雄狮|雄狮F16|</string>
+	<key>福汽启腾</key>
+	<string>启腾M70|</string>
+	<key>福特</key>
+	<string>GT|嘉年华|嘉年华（进口）|征服者|探险者|福克斯|福克斯（进口）|翼搏|翼虎|翼虎／Kuga|致胜   |蒙迪欧|蒙迪欧－致胜|野马|锐界|麦柯斯|</string>
+</dict>
+<key>G</key>
+<dict>
+	<key>GMC</key>
+	<string>TERRAIN|</string>
+	<key>观致</key>
+	<string>观致3|</string>
+	<key>光冈</key>
+	<string>大蛇|嘉路|女王|</string>
+	<key>广汽传祺</key>
+	<string>GA3|GA3S视界|GA5|GA6|GS5|GS5速博|</string>
+	<key>广汽吉奥</key>
+	<string>E美|奥轩G5|奥轩GX5|GX6|星朗|星旺|星旺CL|星旺L|</string>
+</dict>
+<key>H</key>
+<dict>
+	<key>哈飞</key>
+	<string>路宝|哈飞小霸王|骏意|民意|中意V5|赛豹|赛马|</string>
+	<key>哈弗</key>
+	<string>H1|H2|H5|H6|H8|H9|</string>
+	<key>海马</key>
+	<string>3|M3|M8|S5|S7|丘比特|普力马|欢动|海福星|爱尚|王子|福仕达鸿达|福仕达荣达|福仕达腾达|福美来|福美来M5|骑士|</string>
+	<key>悍马</key>
+	<string>H2|H3|</string>
+	<key>恒天</key>
+	<string>途腾T1|途腾T2|途腾T3|</string>
+	<key>红旗</key>
+	<string>H7|新明仕|盛世 |红旗|</string>
+	<key>华普</key>
+	<string>海域 |海尚|海悦|海景|海炫 |海迅|海锋|</string>
+	<key>华颂</key>
+	<string>7|</string>
+	<key>华泰</key>
+	<string>B11|圣达菲|宝利格|特拉卡|路盛E70|</string>
+	<key>黄海</key>
+	<string>挑战者SUV|旗胜V3 |旗胜F1|翱龙CUV|</string>
+</dict>
+<key>J</key>
+<dict>
+	<key>Jeep</key>
+	<string>北京jeep|大切诺基|大切诺基SRT|大切诺基（进口）|指南者|指挥官|牧马人|自由人|自由光|自由客|</string>
+	<key>吉利</key>
+	<string>中国龙|优利欧|吉利EC8|吉利GC7|吉利GX2|吉利GX7|吉利SC3|吉利SC5-RV|吉利SC6|吉利SC7|吉利SX7|帝豪|帝豪EC7|海景|熊猫|美人豹|美日|自由舰|英伦TX4|豪情|远景|金刚|金鹰|</string>
+	<key>江淮</key>
+	<string>同悦|同悦RS|和悦|和悦A13|和悦A13RS|和悦A30|和悦RS|宝斯通|宾悦|悦悦|</string>
+	<key>江铃</key>
+	<string>驭胜|</string>
+	<key>捷豹</key>
+	<string>F－Type|S－Type|X－Type|XF|XJ|XK|</string>
+	<key>金杯</key>
+	<string>智尚S30|金杯S50|阁瑞斯|海星A7|海星A9|小海狮X30|</string>
+</dict>
+<key>K</key>
+<dict>
+	<key>卡尔森</key>
+	<string>GL级 |S级|</string>
+	<key>卡威</key>
+	<string>K1|</string>
+	<key>开瑞</key>
+	<string>优优|优优2代|优派|优翼|优胜|优胜2代|优雅|优雅2代|</string>
+	<key>凯迪拉克</key>
+	<string>ATS－L|ATS（进口）|Brougham|CTS|CTS（进口）|SLS赛威|SRX|XLR|XTS|凯雷德|ESCALADE|帝威|</string>
+	<key>凯翼</key>
+	<string>C3|</string>
+	<key>科尼赛克</key>
+	<string>Agera|CCX|CCXR|</string>
+	<key>克莱斯勒</key>
+	<string>300C|300C(进口)|PT漫步者|交叉火力|大捷龙|大捷龙（进口）|铂锐|</string>
+</dict>
+<key>L</key>
+<dict>
+	<key>兰博基尼</key>
+	<string>Aventador|Gallardo|Huracan|Murcielago|Reventon|</string>
+	<key>劳斯莱斯</key>
+	<string>幻影|古斯特|魅影|</string>
+	<key>雷克萨斯</key>
+	<string>CT|ES|GS|GX|IS|LS|LX |RX|SC|</string>
+	<key>雷诺</key>
+	<string>塔利斯曼|威赛帝|拉古那|梅甘娜|科雷傲|纬度|风景|风朗|</string>
+	<key>理念</key>
+	<string>S1|</string>
+	<key>力帆</key>
+	<string>320|330|520|530|620|630|720|X50|X60|</string>
+	<key>莲花汽车</key>
+	<string>竞悦 |竞速|莲花L3|莲花L5|</string>
+	<key>猎豹汽车</key>
+	<string>猎豹|猎豹6481|猎豹CS6|猎豹CS7|猎豹CT5|飞腾|飞铃|祺菱|黑金刚|</string>
+	<key>林肯</key>
+	<string>MKC|MKS|MKT|MKX|MKZ|城市|领航员|</string>
+	<key>铃木</key>
+	<string>凯泽西|利亚纳|利亚纳A6|北斗星|北斗星X5|吉姆尼|天语SX4|天语尚悦|奥拓|派喜|浪迪|羚羊|超级维特拉|锋驭|雨燕|</string>
+	<key>陆风</key>
+	<string>X5|X6|X8|X9|风华|风尚|</string>
+	<key>路虎</key>
+	<string>卫士|揽胜|揽胜极光（进口）|揽胜运动版|神行者|神行者2|发现神行|第三代发现|第四代发现|</string>
+	<key>路特斯</key>
+	<string>Elise|Evora|Exige|</string>
+</dict>
+<key>M</key>
+<dict>
+	<key>MG</key>
+	<string>MG3|MG3SW|MG5|MG6|MG7|MGTF|</string>
+	<key>MINI</key>
+	<string>MINI|ROADSTER|CLUBMAN|COUNTRYMAN|PACEMAN|COUPE|JCW|JCW CLUBMAN|JCW COUNTRYMAN|JCW PACEMAN|JCW COUPE|</string>
+	<key>马自达</key>
+	<string>2|2劲翔|3|3Axela昂科塞拉|3（进口）|3星骋|5|6|6ATENZA阿特兹|8|8（进口）|CX－5|CX－5（进口）|CX－7（进口）|CX－9|MX－5|RX－8|睿翼|</string>
+	<key>玛莎拉蒂</key>
+	<string>Coupe|Ghibli|GranCabrio|GranTurismo|Spyder|总裁|</string>
+	<key>迈巴赫</key>
+	<string>迈巴赫|</string>
+	<key>迈凯轮</key>
+	<string>12C|650S|625C|P1|P4|</string>
+</dict>
+<key>N</key>
+<dict>
+	<key>纳智捷</key>
+	<string>5 Sedan|MASTER CEO|优6 SUV|大7 MPV|大7SUV|</string>
+</dict>
+<key>O</key>
+<dict>
+	<key>欧歌</key>
+	<string>ILX|MDX|RDX|RL|RLX |TL |ZDX|</string>
+	<key>欧宝</key>
+	<string>威达|安德拉 |英速亚| 赛飞利|雅特|麦瑞纳|</string>
+	<key>欧朗</key>
+	<string>欧朗|</string>
+</dict>
+<key>P</key>
+<dict>
+	<key>帕加尼</key>
+	<string>Huayra|Zonda|</string>
+	<key>佩奇奥</key>
+	<string>CEVENNES|HEMERA|</string>
+</dict>
+<key>Q</key>
+<dict>
+	<key>奇瑞</key>
+	<string>A1|A3|A5|E3|E5|QQ|QQ3|QQ6|QQme|X1|东方之子|东方之子Cross|旗云|旗云1|旗云2|旗云3|旗云5|瑞虎|瑞虎3|瑞虎5|艾瑞泽7|风云|风云2|</string>
+	<key>启辰</key>
+	<string>晨风|D50|R30|R50|R50X|</string>
+	<key>起亚</key>
+	<string>K2|K3|K3S|K4|K5|K5（进口）|RIO锐欧|SPORTAGE|VQ|佳乐|凯尊|千里马|嘉华|智跑|欧菲莱斯|狮跑|福瑞迪|秀尔|索兰托|赛拉图|远舰|速迈|霸锐|</string>
+</dict>
+<key>R</key>
+<dict>
+	<key>日产</key>
+	<string>350Z|370Z|GT－R|NV200|ZN厢式车|公爵王|天籁|奇骏|奇骏（进口）|帕拉丁|楼兰|楼兰（海外）|玛驰|碧莲|西玛|蓝鸟|贵士|轩逸|逍客|途乐|阳光|颐达|风度|风雅|骊威|骏逸|骐达|</string>
+	<key>荣威</key>
+	<string>350|550|750|950|E50|W5|</string>
+	<key>如虎</key>
+	<string>XL|CTR 3|</string>
+	<key>瑞麒</key>
+	<string>M1|M5|G3|G5|G6|</string>
+</dict>
+<key>S</key>
+<dict>
+	<key>Smart</key>
+	<string>Smart forjeremy   Smart fortwo</string>
+	<key>萨博</key>
+	<string>Saab 9-3|Saab 9-5|</string>
+	<key>三菱</key>
+	<string>ASX劲炫（进口）|LANCER|伊柯丽斯|劲炫ASX|君阁|帕杰罗|帕杰罗－劲畅|帕杰罗－劲畅（进口）|帕杰罗（进口）|帕杰罗速跑|戈蓝|格蓝迪|欧蓝德|欧蓝德（进口）|翼神|菱绅|蓝瑟|风迪思|</string>
+	<key>绅宝</key>
+	<string>D70|</string>
+	<key>双环</key>
+	<string>SCEO|小贵族|来宝SRV|</string>
+	<key>双龙</key>
+	<string>主席|享御|柯兰多|爱腾|路帝|雷斯特|雷斯特W|</string>
+	<key>思铭</key>
+	<string>思铭|</string>
+	<key>斯巴鲁</key>
+	<string>BRZ|XV |傲虎|力狮 |森林人|翼豹 |驰鹏|</string>
+	<key>斯柯达</key>
+	<string>Yeti|昊锐|昊锐（进口）|明锐|昕动|昕锐|晶锐|速尊|速派|野帝|</string>
+	<key>上海</key>
+	<string>SH760|</string>
+</dict>
+<key>T</key>
+<dict>
+	<key>特斯拉</key>
+	<string>MODEL S|</string>
+	<key>腾势</key>
+	<string>腾势|</string>
+</dict>
+<key>W</key>
+<dict>
+	<key>沃尔沃</key>
+	<string>C30|C70|S40|S40（进口）|S60|S60L|S80|S80L|V40|V60|XC60（进口）|XC90（进口）|</string>
+	<key>五菱</key>
+	<string>宏光|荣光|之光|</string>
+	<key>威麟</key>
+	<string>H3|H5|X5|V5|V8|</string>
+	<key>威兹曼</key>
+	<string>GT|Roadster|</string>
+</dict>
+<key>X</key>
+<dict>
+	<key>西雅特</key>
+	<string>LEON|伊比飒Ibiza|欧悦搏|</string>
+	<key>现代</key>
+	<string>H－1辉翼|Veloster飞思|伊兰特|新胜达（进口）|劳恩斯|劳恩斯－酷派|北京现代i30|北京现代ix25|北京现代ix35|名图|名驭|君爵|御翔|悦动|朗动|格锐|瑞奕|瑞纳|索纳塔|索纳塔（进口）|索纳塔八|维拉克斯|美佳|途胜（进口）|酷派|雅尊|雅科仕|雅绅特|领翔|</string>
+	<key>雪佛兰</key>
+	<string>赛欧|爱唯欧|乐风|乐骋|科鲁兹|景程|迈锐宝|TRAX创酷|子弹头|斯帕可SPARK|沃蓝达Volt|科帕奇|科帕奇（进口）|科迈罗Camaro|赛欧|</string>
+	<key>雪铁龙</key>
+	<string>C2|C3|C4|C4 Aircross|C4L|C4毕加索|C5|C5（进口）|C6|世嘉|凯旋|富康|毕加索|爱丽舍|塞纳|</string>
+</dict>
+<key>Y</key>
+<dict>
+	<key>野马汽车</key>
+	<string>F10|F12|F99|</string>
+	<key>一汽</key>
+	<string>佳宝V52|佳宝V55|佳宝V70|佳宝V70 II代|佳宝V80|坤程|夏利|夏利2000|夏利N5|夏利N7|威乐|威姿|威志|威志V2|威志V5|森雅M80|森雅S80|雅酷|骏派D60|</string>
+	<key>英菲尼迪</key>
+	<string>EX|FX|G系|JX|M系|Q50|Q60|Q60S|Q70|QX|QX50|QX70|QX80|</string>
+	<key>英致</key>
+	<string>G3|</string>
+	<key>永源</key>
+	<string>猎鹰|A380|五星|</string>
+</dict>
+<key>Z</key>
+<dict>
+	<key>中华</key>
+	<string>H220|H230|H320|H330|H530|V5|尊驰|酷宝|骏捷|骏捷cross|骏捷FRV|骏捷FSV|</string>
+	<key>中兴</key>
+	<string>C3|无限|</string>
+	<key>众泰</key>
+	<string>2008|5008|M300|T200|T600|V10|Z100|Z200|Z200HB|Z300|江南TT|</string>
+	<key>知豆</key>
+	<string>知豆|</string>
+</dict>
+</plist>

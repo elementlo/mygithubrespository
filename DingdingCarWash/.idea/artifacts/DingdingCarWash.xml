@@ -1,0 +1,22 @@
+<component name="ArtifactManager">
+  <artifact type="apk" build-on-make="true" name="DingdingCarWash">
+    <output-path>$PROJECT_DIR$/out/artifacts/DingdingCarWash</output-path>
+    <properties id="android-properties">
+      <options>
+        <option name="keyAlias" value="keystore" />
+        <option name="keyPassword" value="MzMxNzE4MQ==" />
+        <option name="keyStorePassword" value="MzMxNzE4MQ==" />
+        <option name="keyStoreUrl" value="file://D:/key/keystore" />
+        <option name="proGuardCfgFiles">
+          <list>
+            <option value="file://C:/Program Files/Java/jdk1.7.0_67/tools/proguard/proguard-android.txt" />
+          </list>
+        </option>
+        <option name="signingMode" value="RELEASE_SIGNED" />
+      </options>
+    </properties>
+    <root id="archive" name="DingdingCarWash.apk">
+      <element id="android-final-package" facet="DingdingCarWash/android/Android" />
+    </root>
+  </artifact>
+</component>

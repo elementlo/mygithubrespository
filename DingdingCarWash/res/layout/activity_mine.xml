@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#F1F1F1">
+
+    <net.wash8.customview.CustomTitle
+            android:id="@+id/customTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+            android:layout_marginTop="15dp"
+            android:id="@+id/rl_aboutme"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:background="#ffffff"
+            >
+
+        <ImageView
+                android:id="@+id/iv_avatar"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_order_left_hei"
+                android:layout_centerVertical="true"
+                android:src="@drawable/default_avatar"
+                android:paddingLeft="20dp"
+                />
+
+        <TextView
+                android:id="@+id/tv_username"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"
+                android:layout_toRightOf="@+id/iv_avatar"
+                android:layout_centerVertical="true"/>
+
+        <ImageView
+                android:id="@+id/washplace_in"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_order_in_hei"
+                android:src="@drawable/right_icon_mine"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:paddingRight="20dp"
+                />
+    </RelativeLayout>
+
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"/>
+
+    <RelativeLayout
+            android:id="@+id/rl_mycar"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:background="#ffffff">
+
+        <ImageView
+                android:id="@+id/iv_mycar"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_order_left_hei"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_mine_mycar"
+                android:paddingLeft="20dp"
+                />
+
+        <TextView
+                android:id="@+id/tv_mycar"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/text_order_hei"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_mycar"
+                android:text="我的车"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"/>
+
+        <ImageView
+                android:id="@+id/mycar_in"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_order_in_hei"
+                android:src="@drawable/right_icon_mine"
+                android:layout_alignParentRight="true"
+                android:paddingRight="20dp"
+                />
+    </RelativeLayout>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dividing_line"/>
+
+    <RelativeLayout
+            android:id="@+id/rl_member"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:background="#ffffff">
+
+        <ImageView
+                android:id="@+id/iv_member"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_order_left_hei"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_mine_member"
+                android:paddingLeft="20dp"
+                />
+
+        <TextView
+                android:id="@+id/tv_member"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/text_order_hei"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_member"
+                android:text="会员"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"/>
+
+        <ImageView
+                android:id="@+id/member_in"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_order_in_hei"
+                android:src="@drawable/right_icon_mine"
+                android:layout_alignParentRight="true"
+                android:paddingRight="20dp"
+                />
+    </RelativeLayout>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dividing_line"/>
+
+    <RelativeLayout
+            android:id="@+id/rl_myorder"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:background="#ffffff">
+
+        <ImageView
+                android:id="@+id/iv_myorder"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_order_left_hei"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_mine_order"
+                android:paddingLeft="20dp"
+                />
+
+        <TextView
+                android:id="@+id/tv_myorder"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/text_order_hei"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_myorder"
+                android:text="我的订单"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"/>
+
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12"
+                android:gravity="center"
+                android:textColor="#ffffff"
+                android:layout_toLeftOf="@+id/myorder_in"
+                android:layout_marginRight="10dp"
+                android:layout_centerVertical="true"
+                android:background="@drawable/icon_unread_count"
+                android:visibility="invisible"/>
+
+        <ImageView
+                android:id="@+id/myorder_in"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_order_in_hei"
+                android:src="@drawable/right_icon_mine"
+                android:layout_alignParentRight="true"
+                android:paddingRight="20dp"
+                />
+    </RelativeLayout>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    <ImageView
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <RelativeLayout
+            android:id="@+id/rl_coupon"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:clickable="true"
+            android:onClick="onClick"
+            android:background="#ffffff">
+
+        <ImageView
+                android:id="@+id/iv_coupon"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_order_left_hei"
+                android:layout_centerVertical="true"
+                android:src="@drawable/icon_mine_coupon"
+                android:paddingLeft="20dp"
+                />
+
+        <TextView
+                android:id="@+id/tv_coupon"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/text_order_hei"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/iv_coupon"
+                android:text="优惠券"
+                android:textSize="20sp"
+                android:layout_marginLeft="20dp"/>
+
+        <ImageView
+                android:id="@+id/coupon_in"
+                android:layout_centerVertical="true"
+                android:layout_width="wrap_content"
+                android:layout_height="@dimen/icon_order_in_hei"
+                android:src="@drawable/right_icon_mine"
+                android:layout_alignParentRight="true"
+                android:paddingRight="20dp"
+                />
+    </RelativeLayout>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+</LinearLayout>

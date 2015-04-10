@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="gray">#B1B1B1</color>
+    <color name="cover">#884D4D4D</color>
+
+    <color name="white">#FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="red">#E60012</color>
+    <color name="green">#006934</color>
+    <color name="blue">#172A88</color>
+    <color name="yellow">#FAEE00</color>
+    <color name="sliver_gray">#B5B5B6</color>
+    <color name="dark_gray">#3E3A39</color>
+    <color name="btn_orange">#F3911F</color>
+    <color name="submit_bg">#99D0F1</color>
+    <color name="paypage_bg">#F2F2F2</color>
+
+    <color name="text_gray">#9FA0A0</color>
+    <color name="text_color">#333333</color>
+    <color name="text_deep_gray">#727171</color>
+
+    <color name="main_color">#35A3DD</color>
+
+    <color name="result_view">#b0000000</color>
+    <color name="viewfinder_mask">#60000000</color>
+    <color name="possible_result_points">#c0ffff00</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+
+    <color name="champagne">#F1AB72</color>
+    <color name="coffee">#7A5B37</color>
+    <color name="purple">#440945</color>
+    <color name="orange">#FF6825</color>
+</resources>

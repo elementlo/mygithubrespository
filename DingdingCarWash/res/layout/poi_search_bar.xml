@@ -1,0 +1,91 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:orientation="vertical">
+
+    <net.wash8.customview.CustomTitle
+            android:id="@+id/customTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            />
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <TextView
+                android:layout_centerVertical="true"
+                android:id="@+id/tv_xichedidian"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="洗车地点:"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"/>
+
+        <EditText
+                android:layout_toRightOf="@+id/tv_xichedidian"
+                android:id="@+id/edittext_poi_search_text"
+                android:layout_width="match_parent"
+                android:paddingRight="30dp"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:paddingLeft="10dp"
+                android:ems="15"
+                android:textCursorDrawable="@null"
+                android:hint="@string/search"
+                android:textColorHint="#656565"
+                android:textSize="18sp"
+                android:singleLine="true"/>
+
+
+        <ImageView
+                android:id="@+id/imageview_poi_search_clear"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_alignRight="@+id/edittext_poi_search_text"
+                android:layout_marginTop="11dp"
+                android:visibility="invisible"
+                android:src="@drawable/clear_input_656565"/>
+    </RelativeLayout>
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dividing_line"/>
+    <RelativeLayout
+            android:id="@+id/rl_detail_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:visibility="invisible"
+           >
+        <TextView
+                android:layout_centerVertical="true"
+                android:id="@+id/tv_cheliangweizhi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="车辆位置:"
+                android:textSize="20sp"
+                android:layout_marginLeft="10dp"/>
+        <EditText
+                android:id="@+id/et_carlocation"
+                android:layout_toRightOf="@+id/tv_cheliangweizhi"
+                android:layout_width="match_parent"
+                android:paddingLeft="10dp"
+                android:layout_height="50dp"
+                android:background="@null"
+                android:singleLine="true"
+                android:hint="请详细描述车辆的停放位置"/>
+        <ImageView
+                android:id="@+id/iv_divid"
+                android:layout_below="@+id/et_carlocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dividing_line"/>
+
+    </RelativeLayout>
+    <ListView
+            android:id="@+id/lv_carlocation"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:divider="@null"
+            android:visibility="invisible"/>
+</LinearLayout>

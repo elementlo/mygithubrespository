@@ -1,0 +1,269 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             android:layout_width="match_parent"
+             android:layout_height="match_parent">
+
+
+
+    <LinearLayout
+                  android:orientation="vertical"
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent">
+
+        <net.wash8.customview.CustomTitle
+                android:id="@+id/custom_title"
+                android:layout_width="match_parent"
+                android:layout_height="60dp">
+        </net.wash8.customview.CustomTitle>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/dividing_line"/>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:paddingLeft="20dp"
+                >
+
+            <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical">
+
+                <TextView
+                        android:id="@+id/tv_carNum"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/car_num"/>
+
+                <TextView
+                    	android:id="@+id/tv_province"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="粤"
+                        android:layout_marginLeft="20dp"
+                        android:textColor="@color/gray"
+                        android:onClick="onClick"/>
+
+                <ImageView
+                    	android:id="@+id/iv_choose_province"
+                        android:layout_width="20dp"
+                        android:layout_height="20dp"
+                        android:src="@drawable/icon_spinner"
+						android:onClick="onClick"
+                        android:layout_marginLeft="5dp"
+                        />
+
+                <EditText
+                        android:id="@+id/et_carnumber"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:hint="@string/enter_car_num"
+                        android:textSize="14sp"
+                        android:maxLength="6"
+                        android:singleLine="true"
+                        android:layout_marginLeft="5dp"
+                        android:background="@null"/>
+
+            </LinearLayout>
+        </RelativeLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/dividing_line"/>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:paddingLeft="20dp"
+                >
+
+            <LinearLayout
+                    android:id="@+id/ll_car"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    android:onClick="onClick">
+
+                <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/car_brand"/>
+
+                <TextView
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:id="@+id/tv_mycarbrand"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/choose_car_brand"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray"
+                        android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                    android:id="@+id/iv_chooseBrand"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/right_icon"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    />
+        </RelativeLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/dividing_line"/>
+
+        <RelativeLayout
+                android:id="@+id/rl_chooseColor"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:paddingLeft="20dp"
+                >
+
+            <LinearLayout
+                    android:id="@+id/ll_carColor"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:clickable="true"
+                    android:onClick="onClick">
+
+                <TextView
+                        android:id="@+id/tv_carColor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/car_color"/>
+
+                <TextView
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:id="@+id/tv_mycarcolor"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/choose_car_color"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray"
+                        android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                    android:id="@+id/iv_chooseColor"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/right_icon"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    />
+        </RelativeLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/dividing_line"/>
+
+        <RelativeLayout
+                android:id="@+id/rl_chooseImage"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:clickable="true"
+                android:paddingLeft="20dp"
+                android:onClick="onClick"
+                >
+
+            <LinearLayout
+                    android:id="@+id/ll_chooseImage"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center_vertical"
+                    android:onClick="onClick"
+                    >
+
+                <TextView
+                        android:id="@+id/tv_carImage"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/car_image"/>
+
+                <TextView
+                        android:focusable="true"
+                        android:focusableInTouchMode="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="@string/choose_car_image"
+                        android:textSize="14sp"
+                        android:textColor="@color/gray"
+                        android:layout_marginLeft="20dp"/>
+
+            </LinearLayout>
+
+            <ImageView
+                    android:id="@+id/iv_chooseImage"
+                    android:layout_width="35dp"
+                    android:layout_height="35dp"
+                    android:src="@drawable/right_icon"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="20dp"
+                    />
+        </RelativeLayout>
+
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/dividing_line"/>
+
+        <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+            <ImageView
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/iv_showcar"
+                    android:layout_width="300dp"
+                    android:layout_height="180dp"
+                    android:scaleType="centerCrop"
+                    android:onClick="onClick"/>
+            <RelativeLayout
+                    android:id="@+id/ll_submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="@dimen/title_hei"
+                    android:layout_alignParentBottom="true"
+                    android:background="@color/submit_bg">
+                <Button
+                        android:id="@+id/ib_submit_mycar"
+                        android:layout_width="@dimen/btn_wid_50"
+                        android:layout_height="@dimen/btn_hei_30"
+                        android:background="@drawable/icon_btn_submit_bg"
+                        android:text="提交"
+                        android:layout_centerInParent="true"
+                        android:layout_marginRight="20dp"
+                        android:textColor="#ffffff"
+                        android:onClick="onClick"
+                        />
+            </RelativeLayout>
+        </RelativeLayout>
+
+    </LinearLayout>
+    <ProgressBar
+            android:layout_gravity="center"
+            android:id="@+id/pb_carinfo"
+            android:layout_width="70dp"
+            android:layout_height="70dp"
+            android:visibility="invisible"/>
+</FrameLayout>

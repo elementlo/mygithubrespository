@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="month_background_size">30dp</dimen>
+    <dimen name="text_week_wid">20dp</dimen>
+    <dimen name="text_week_hei">10dp</dimen>
+    <dimen name="text_size_20">20sp</dimen>
+    <dimen name="dvdline_hei">85dp</dimen>
+    <dimen name="title_hei">50dp</dimen>
+    <dimen name="btn_wid_50">50dp</dimen>
+    <dimen name="btn_hei_30">30dp</dimen>
+    <dimen name="btn_wid_60">60dp</dimen>
+    <dimen name="row_hei">70dp</dimen>
+    <dimen name="padding_20">20dp</dimen>
+    <dimen name="padding_10">10dp</dimen>
+    <dimen name="text_size_25">25sp</dimen>
+    <dimen name="choose_car_item_height">50dp</dimen>
+    <dimen name="choose_car_circle_size">25dp</dimen>
+    <dimen name="photo_car_height">240dp</dimen>
+    <dimen name="text_order_hei">25dp</dimen>
+    <dimen name="icon_order_hei">20dp</dimen>
+    <dimen name="icon_order_left_hei">30dp</dimen>
+    <dimen name="icon_order_in_hei">30dp</dimen>
+</resources>

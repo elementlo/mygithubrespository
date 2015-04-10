@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+    <net.wash8.customview.CustomTitle
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/customTitle"/>
+    <View
+            android:layout_width="115dp"
+            android:layout_height="100dp"
+            android:background="@drawable/logo_180x180"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="60dp"/>
+
+    <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/main_color"
+            android:textSize="18sp"
+            android:paddingLeft="20dp"
+            android:paddingRight="20dp"
+            android:layout_marginTop="35dp"
+            android:text="为了方便你更好的体验爱洗吧洗车服务，请先注册。"/>
+    
+    <Button
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="40dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginLeft="20dp"
+            android:background="@drawable/blue_shape"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:text="注   册"
+            android:onClick="onClick"/>
+</LinearLayout>

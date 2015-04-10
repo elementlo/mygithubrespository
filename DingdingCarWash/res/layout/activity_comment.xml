@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+        <net.wash8.customview.CustomTitle
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/customTitle"></net.wash8.customview.CustomTitle>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/dividing_line"
+                android:layout_marginTop="20dp"/>
+        <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="@dimen/padding_20"
+                android:paddingRight="@dimen/padding_20">
+            <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/gray"
+                    android:text="主题："/>
+            <EditText
+                    android:id="@+id/et_title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:singleLine="true"
+                    android:background="@null"
+                    android:textSize="14dp"
+                    android:hint="我对爱洗吧客户端Android版的建议"/>
+                </LinearLayout>
+        <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/dividing_line"/>
+        <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="@dimen/padding_20"
+                android:layout_marginTop="@dimen/padding_20"
+                android:textColor="@color/text_color"
+                android:text="您好，我对爱洗吧客户端\nAndriod V1.0版本的建议如下："/>
+
+        <EditText
+                android:id="@+id/et_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:minHeight="100dp"
+                android:background="@null"
+                android:textSize="14dp"
+                android:gravity="top"
+                android:layout_margin="20dp"
+                />
+            </LinearLayout>
+
+
+    <LinearLayout
+            android:id="@+id/ll_submit"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_gravity="bottom"
+            android:gravity="center"
+            android:layout_alignParentBottom="true"
+            android:background="@color/submit_bg">
+
+        <Button
+                android:id="@+id/btn_submit"
+                android:layout_width="@dimen/btn_wid_50"
+                android:layout_height="@dimen/btn_hei_30"
+                android:background="@drawable/icon_btn_submit_bg"
+                android:text="提交"
+                android:textColor="#ffffff"
+                android:onClick="onClick"
+                />
+    </LinearLayout>
+</RelativeLayout>

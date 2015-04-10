@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+        >
+
+    <net.wash8.customview.CustomTitle
+            android:id="@+id/customTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    <LinearLayout
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+
+        <RelativeLayout
+                android:layout_weight="1"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/tv_month1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/month_background_size"
+                    android:text="1月"
+                    android:gravity="center"
+                    android:background="@drawable/month_background"
+                    android:layout_centerHorizontal="true"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/text_size_20"
+                    android:layout_marginTop="10dp"
+                    />
+
+
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/tv1_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="周一"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="16sp"
+                    android:layout_below="@+id/tv_month1"/>
+
+            <ImageView
+                    android:layout_width="2dp"
+                    android:layout_height="@dimen/dvdline_hei"
+                    android:background="@drawable/divide_date"
+                    android:id="@+id/divid1_date"
+                    android:layout_alignBottom="@+id/tv1_date"
+                    android:layout_toEndOf="@+id/tv_month1"
+                    android:layout_toRightOf="@+id/tv_month1"
+                    android:visibility="invisible"
+                    />
+
+            <TextView
+                    android:gravity="center"
+                    android:layout_width="@dimen/month_background_size"
+                    android:layout_height="@dimen/month_background_size"
+                    android:background="@drawable/bg_date"
+                    android:id="@+id/tv1_date"
+                    android:layout_below="@+id/tv1_week"
+
+                    android:layout_centerHorizontal="true"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/tv_month2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/month_background_size"
+                    android:text="1月"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/month_background"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/text_size_20"
+                    android:layout_marginTop="10dp"
+                    android:visibility="invisible"
+                    />
+
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/tv2_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="周一"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="16sp"
+
+                    android:layout_below="@+id/tv_month2"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dvdline_hei"
+                    android:background="@drawable/divide_date"
+                    android:id="@+id/divid2_date"
+                    android:layout_alignBottom="@+id/tv2_date"
+                    android:layout_toEndOf="@+id/tv_month2"
+                    android:layout_toRightOf="@+id/tv_month2"
+                    android:visibility="invisible"/>
+
+            <TextView
+                    android:gravity="center"
+                    android:layout_width="@dimen/month_background_size"
+                    android:layout_height="@dimen/month_background_size"
+                    android:background="@drawable/bg_date"
+                    android:layout_centerHorizontal="true"
+                    android:id="@+id/tv2_date"
+                    android:layout_below="@+id/tv2_week"
+                    android:layout_alignEnd="@+id/tv2_week"
+                    android:layout_alignRight="@+id/tv2_week"
+                    />
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/tv_month3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/month_background_size"
+                    android:text="1月"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/month_background"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/text_size_20"
+                    android:layout_marginTop="10dp"
+                    android:visibility="invisible"
+                    />
+
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/tv3_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="周一"
+                    android:textSize="16sp"
+                    android:layout_below="@+id/tv_month3"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dvdline_hei"
+                    android:background="@drawable/divide_date"
+                    android:id="@+id/divid3_date"
+                    android:layout_alignBottom="@+id/tv3_date"
+                    android:layout_toEndOf="@+id/tv_month3"
+                    android:layout_toRightOf="@+id/tv_month3"
+                    android:visibility="invisible"/>
+
+            <TextView
+                    android:gravity="center"
+                    android:layout_width="@dimen/month_background_size"
+                    android:layout_height="@dimen/month_background_size"
+                    android:background="@drawable/bg_date"
+                    android:id="@+id/tv3_date"
+                    android:layout_centerHorizontal="true"
+                    android:layout_below="@+id/tv3_week"
+                    android:layout_alignEnd="@+id/tv3_week"
+                    android:layout_alignRight="@+id/tv3_week"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/tv_month4"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/month_background_size"
+                    android:text="1月"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/month_background"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/text_size_20"
+                    android:layout_marginTop="10dp"
+                    android:visibility="invisible"
+                    />
+
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/tv4_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="周一"
+                    android:layout_centerHorizontal="true"
+                    android:textSize="16sp"
+                    android:layout_below="@+id/tv_month4"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dvdline_hei"
+                    android:background="@drawable/divide_date"
+                    android:id="@+id/divid4_date"
+                    android:layout_alignBottom="@+id/tv4_date"
+                    android:layout_toEndOf="@+id/tv_month4"
+                    android:layout_toRightOf="@+id/tv_month4"
+                    android:visibility="invisible"/>
+
+            <TextView
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_width="@dimen/month_background_size"
+                    android:layout_height="@dimen/month_background_size"
+                    android:background="@drawable/bg_date"
+                    android:id="@+id/tv4_date"
+                    android:layout_below="@+id/tv4_week"
+                    android:layout_alignEnd="@+id/tv4_week"
+                    android:layout_alignRight="@+id/tv4_week"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/tv_month5"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/month_background_size"
+                    android:text="1月"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/month_background"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/text_size_20"
+                    android:layout_marginTop="10dp"
+                    android:visibility="invisible"
+                    />
+
+            <TextView
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/tv5_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_centerHorizontal="true"
+                    android:text="周一"
+                    android:textSize="16sp"
+                    android:layout_below="@+id/tv_month5"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dvdline_hei"
+                    android:background="@drawable/divide_date"
+                    android:id="@+id/divid5_date"
+                    android:layout_alignBottom="@+id/tv5_date"
+                    android:layout_toEndOf="@+id/tv_month5"
+                    android:layout_toRightOf="@+id/tv_month5"
+                    android:visibility="invisible"/>
+
+            <TextView
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_width="@dimen/month_background_size"
+                    android:layout_height="@dimen/month_background_size"
+                    android:background="@drawable/bg_date"
+                    android:id="@+id/tv5_date"
+                    android:layout_below="@+id/tv5_week"
+                    android:layout_alignEnd="@+id/tv5_week"
+                    android:layout_alignRight="@+id/tv5_week"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+            <TextView
+                    android:id="@+id/tv_month6"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/month_background_size"
+                    android:text="1月"
+                    android:layout_centerHorizontal="true"
+                    android:background="@drawable/month_background"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/text_size_20"
+                    android:layout_marginTop="10dp"
+                    android:visibility="invisible"
+                    />
+
+            <TextView
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/tv6_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="周一"
+                    android:textSize="16sp"
+                    android:layout_below="@+id/tv_month6"/>
+
+            <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/dvdline_hei"
+                    android:background="@drawable/divide_date"
+                    android:id="@+id/divid6_date"
+                    android:layout_alignBottom="@+id/tv6_date"
+                    android:layout_toRightOf="@+id/tv_month6"
+                    android:layout_toEndOf="@+id/tv_month6"
+                    android:visibility="invisible"/>
+
+            <TextView
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_width="@dimen/month_background_size"
+                    android:layout_height="@dimen/month_background_size"
+                    android:background="@drawable/bg_date"
+                    android:id="@+id/tv6_date"
+                    android:layout_below="@+id/tv6_week"
+                    android:layout_alignEnd="@+id/tv6_week"
+                    android:layout_alignRight="@+id/tv6_week"/>
+        </RelativeLayout>
+
+        <RelativeLayout
+                android:layout_weight="1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                >
+
+            <TextView
+                    android:id="@+id/tv_month7"
+                    android:layout_centerHorizontal="true"
+                    android:layout_width="wrap_content"
+                    android:layout_height="@dimen/month_background_size"
+                    android:text="1月"
+                    android:background="@drawable/month_background"
+                    android:gravity="center"
+                    android:textColor="#ffffff"
+                    android:textSize="@dimen/text_size_20"
+                    android:layout_marginTop="10dp"
+                    android:visibility="invisible"
+                    />
+                <ImageView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/dvdline_hei"
+                        android:background="@drawable/divide_date"
+                        android:id="@+id/divid7_date"
+                        android:layout_alignBottom="@+id/tv7_date"
+                        android:layout_toEndOf="@+id/tv_month7"
+                        android:layout_toRightOf="@+id/tv_month7"
+                        android:visibility="invisible"/>
+
+            <TextView
+                    android:layout_centerHorizontal="true"
+                    android:layout_marginTop="10dp"
+                    android:id="@+id/tv7_week"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="周一"
+                    android:textSize="16sp"
+                    android:layout_below="@+id/tv_month7"/>
+
+            <TextView
+                    android:layout_centerHorizontal="true"
+                    android:gravity="center"
+                    android:layout_width="@dimen/month_background_size"
+                    android:layout_height="@dimen/month_background_size"
+                    android:background="@drawable/bg_date"
+                    android:id="@+id/tv7_date"
+                    android:layout_below="@+id/tv7_week"
+                    android:layout_alignEnd="@+id/tv7_week"
+                    android:layout_alignRight="@+id/tv7_week"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <TextView
+            android:layout_marginTop="20dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:paddingLeft="20dp"
+            android:textSize="20sp"
+            android:text="今天"/>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dividing_line"/>
+<RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <ListView
+                android:id="@+id/lv_washtime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_above="@+id/ll_submit"
+                >
+        </ListView>
+
+        <LinearLayout
+                android:id="@+id/ll_submit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_hei"
+                android:gravity="center"
+                android:layout_alignParentBottom="true"
+                android:background="@color/submit_bg">
+
+                <Button
+                        android:id="@+id/btn_submit_time"
+                        android:layout_width="@dimen/btn_wid_50"
+                        android:layout_height="@dimen/btn_hei_30"
+                        android:background="@drawable/icon_btn_submit_bg"
+                        android:text="提交"
+                        android:textColor="#ffffff"
+                        android:onClick="onClick"
+                        />
+        </LinearLayout>
+</RelativeLayout>
+
+</LinearLayout>

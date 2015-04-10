@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="btn_commom" parent="">
+        <item name="android:layout_width">60dp</item>
+        <item name="android:layout_height">30dp</item>
+        <item name="android:textSize">15sp</item>
+        <item name="android:background">@drawable/background_btn</item>
+        <item name="android:textColor">#ffffff</item>
+        <item name="android:layout_gravity">center</item>
+    </style>
+    <!--全局修改字体 不应被修改-->
+    <style name="AppBaseTheme" parent="android:Theme.Light.NoTitleBar">
+    </style>
+
+    <!-- Application theme. -->
+    <!--全局修改字体 不应被修改-->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <item name="android:typeface">monospace</item>
+    </style>
+    
+    <style name="customRatingBar" parent="@android:style/Widget.RatingBar">
+        <item name="android:progressDrawable">@drawable/customratingbar_full</item>
+        <item name="android:minHeight">17dp</item>
+        <item name="android:maxHeight">20dp</item>
+        <item name="android:maxWidth">25dp</item>
+        <item name="android:minWidth">25dp</item>
+    </style>
+
+    <style name="Dialog" parent="android:style/Theme.Dialog">
+        <item name="android:background">#00000000</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsFloating">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+    </style>
+</resources>

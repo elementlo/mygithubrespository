@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              android:orientation="vertical"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent">
+
+    <net.wash8.customview.CustomTitle
+            android:id="@+id/customTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"></net.wash8.customview.CustomTitle>
+
+    <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="70dp"
+            android:orientation="vertical"
+            android:gravity="center">
+
+        <TextView
+                android:layout_marginLeft="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="请选择您需要的洗护服务"
+                android:textSize="19sp"/>
+    </LinearLayout>
+
+    <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/dividing_line"/>
+
+    <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+
+        <ListView
+                android:id="@+id/lv_serviceitems"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_above="@+id/ll_submit"></ListView>
+
+        <RelativeLayout
+                android:id="@+id/ll_submit"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/title_hei"
+                android:layout_alignParentBottom="true"
+                android:background="@color/submit_bg">
+
+            <TextView
+                    android:id="@+id/tv_fuwuzongjia"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="服务总价:"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:layout_centerVertical="true"
+                    android:layout_marginLeft="20dp"/>
+
+            <TextView
+                    android:id="@+id/tv_sumprice"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="0"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:layout_marginLeft="10dp"
+                    android:layout_alignBaseline="@+id/tv_fuwuzongjia"
+                    android:layout_toRightOf="@+id/tv_fuwuzongjia"
+                    />
+
+            <TextView
+                    android:id="@+id/tv_yuan"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="元"
+                    android:textSize="20dp"
+                    android:textColor="#ffffff"
+                    android:layout_alignBaseline="@+id/tv_fuwuzongjia"
+                    android:layout_toRightOf="@+id/tv_sumprice"
+                    />
+
+            <Button
+                    android:id="@+id/btn_submit_place"
+                    android:layout_width="@dimen/btn_wid_50"
+                    android:layout_height="@dimen/btn_hei_30"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_marginRight="15dp"
+                    android:background="@drawable/icon_btn_submit_bg"
+                    android:text="提交"
+                    android:textColor="#ffffff"
+                    android:onClick="onClick"
+                    />
+        </RelativeLayout>
+    </RelativeLayout>
+</LinearLayout>

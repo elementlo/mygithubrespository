@@ -1,0 +1,2107 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AndroidConfiguredLogFilters">
+    <filters>
+      <filter>
+        <option name="logLevel" value="verbose" />
+        <option name="logMessagePattern" value="" />
+        <option name="logTagPattern" value="tag" />
+        <option name="name" value="app: net.wash8" />
+        <option name="packageNamePattern" value="net.wash8" />
+        <option name="pid" value="" />
+      </filter>
+    </filters>
+  </component>
+  <component name="AndroidLayouts">
+    <shared>
+      <config>
+        <pickBest>false</pickBest>
+        <target>android-18</target>
+      </config>
+    </shared>
+    <layouts>
+      <layout url="file://$PROJECT_DIR$/res/drawable/customratingbar_full.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_aboutme.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_car_info.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_coupon.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_help.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_member.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_mine.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_order.xml">
+        <config>
+          <theme>@android:style/Theme.Light.NoTitleBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_orderitem.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_ordertime.xml">
+        <config>
+          <theme>@android:style/Theme.Light.NoTitleBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_paypage.xml">
+        <config>
+          <theme>@android:style/Theme.Light.NoTitleBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_poi_search.xml">
+        <config>
+          <theme>@android:style/Theme.Light.NoTitleBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_rigister_index.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_servicedetail.xml">
+        <config>
+          <theme>@android:style/Theme.Light.NoTitleBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_serviceitems.xml">
+        <config>
+          <theme>@android:style/Theme.Light.NoTitleBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/activity_sign.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/adapter_sale_price_item.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/choose_car_color_menu.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/completedactivity.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/custom_title.xml">
+        <config>
+          <theme>@android:style/Theme.Light.NoTitleBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/left_menu.xml">
+        <config>
+          <theme>@android:style/Theme.Light.NoTitleBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/listview_carlist.xml">
+        <config>
+          <theme>@android:style/Theme.Light.NoTitleBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/listview_coupon.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/listview_myorder.xml">
+        <config>
+          <theme>@style/AppTheme</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/listview_view_1th.xml">
+        <config>
+          <theme>@android:style/Theme.Light.NoTitleBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/main.xml">
+        <config>
+          <theme>@android:style/Theme.DeviceDefault.Light.NoActionBar</theme>
+        </config>
+      </layout>
+      <layout url="file://$PROJECT_DIR$/res/layout/poi_search_bar.xml">
+        <config>
+          <theme>@android:style/Theme.Light.NoTitleBar</theme>
+        </config>
+      </layout>
+    </layouts>
+  </component>
+  <component name="AndroidLogFilters">
+    <option name="TOOL_WINDOW_CONFIGURED_FILTER" value="app: net.wash8" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" readonly="true" id="7b071449-68a6-494c-9907-9859c82e87f4" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/Android_2DMap_V2.4.0.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/raw/beep.ogg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/camera" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/chouyangxiaodu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/comingsoon.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/dala.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/dalahuli.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/decoding" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/dividing_line_vertical.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-ldpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-mdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-xhdpi/icon.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_detail.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_quit.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/lashuikuaixi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/liqingquchu.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/monidala.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/neishihuli.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/photo_car.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/photo_carlist.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/photo_myorder_item.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/raw" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/right_icon_mine.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/shenduhulitaocan.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/view" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/welcome_background.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/welcome_page.png" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/xichehuli.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable-hdpi/zhengchejingxi.jpg" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/libs/zxing.jar" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/camera/AutoFocusCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/camera/CameraConfigurationManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/camera/CameraManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/decoding/CaptureActivityHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/activity/CompletedActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/decoding/DecodeFormatManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/decoding/DecodeHandler.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/decoding/DecodeThread.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/decoding/FinishListener.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/camera/FlashlightManager.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/activity/HelpActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/decoding/InactivityTimer.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/decoding/Intents.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/customview/LinearLayoutForListView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/activity/MipcaActivityCapture.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/camera/PlanarYUVLuminanceSource.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/camera/PreviewCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/activity/ShopActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/view/ViewfinderResultPointCallback.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/view/ViewfinderView.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/net/wash8/activity/WelcomeActivity.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_help.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_shop.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_sign.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/activity_welcome.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/adapter_car_province.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/champagne_circle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/choose_car_province.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/coffee_circle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/layout/completedactivity.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/values/ids.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/orange_circle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/drawable/purple_circle.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/res/raw/realm_properties" />
+      <change type="DELETED" beforePath="D:\workspace\DingdingCarWash\libs\AMap_3DMap_V2.3.1.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\DingdingCarWash\libs\Android_Location_V1.3.0.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\DingdingCarWash\libs\afinal_0.5.1_bin.jar" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\DingdingCarWash\assets\fonts\cuheifanti.TTF" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\DingdingCarWash\assets\fonts\cuheijianti.TTF" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\DingdingCarWash\assets\fonts\heifanti.TTF" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\DingdingCarWash\res\drawable-hdpi\icon_raingbar.png" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/res/drawable-hdpi/order.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\DingdingCarWash\res\drawable-hdpi\photo_car.png" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\DingdingCarWash\assets\fonts\teheifanti.TTF" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\DingdingCarWash\assets\fonts\teheijianti.TTF" afterPath="" />
+      <change type="DELETED" beforePath="D:\workspace\DingdingCarWash\assets\fonts\xianheifanti.TTF" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/libs/AMap_Services_V2.3.1.jar" afterPath="$PROJECT_DIR$/libs/AMap_Services_V2.3.1.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/AboutmeActivity$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/AboutmeActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/AboutmeActivity$2.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/AboutmeActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/AboutmeActivity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/AboutmeActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/customview/AsortList/AssortView.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/customview/AsortList/AssortView.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/net/AsyncHttpClient$1.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/net/AsyncHttpClient$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/net/AsyncHttpClient$2.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/net/AsyncHttpClient$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/net/AsyncHttpClient$InflatingEntity.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/net/AsyncHttpClient$InflatingEntity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/net/AsyncHttpClient.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/net/AsyncHttpClient.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/BuildConfig.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../slidingmenulibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/BuildConfig.class" afterPath="$PROJECT_DIR$/../slidingmenulibrary/bin/classes/com/jeremyfeinstein/slidingmenu/lib/BuildConfig.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$1.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$2.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$2.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$3.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$3.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$4.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$4.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$5.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$5.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$6.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$6.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$7.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$7.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$AsyHandler.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$AsyHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$AsyHandler.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$AsyHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$CarColorListener.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity$CarColorListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$CarColorListener.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity$CarColorListener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/CarInfoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/CarInfoActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/CarlistonBaseAdapter$1$1.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/CarlistonBaseAdapter$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/CarlistonBaseAdapter$1$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/CarlistonBaseAdapter$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/CarlistonBaseAdapter$1.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/CarlistonBaseAdapter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/CarlistonBaseAdapter$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/CarlistonBaseAdapter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/CarlistonBaseAdapter$2$1.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/CarlistonBaseAdapter$2$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/CarlistonBaseAdapter$2.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/CarlistonBaseAdapter$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/CarlistonBaseAdapter$AsyHandler$1.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/CarlistonBaseAdapter$AsyHandler$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/CarlistonBaseAdapter$AsyHandler$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/CarlistonBaseAdapter$AsyHandler$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/CarlistonBaseAdapter$AsyHandler.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/CarlistonBaseAdapter$AsyHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/CarlistonBaseAdapter$AsyHandler.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/CarlistonBaseAdapter$AsyHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/CarlistonBaseAdapter.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/CarlistonBaseAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/CarlistonBaseAdapter.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/CarlistonBaseAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/classbean/Cars.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/classbean/Cars.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/customview/CustomTitle.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/customview/CustomTitle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/customview/CustomTitle.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/customview/CustomTitle.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/DingdingCarWash.apk" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/DingdingCarWash.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/DingdingCarWash.unaligned.apk" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/DingdingCarWash.unaligned.apk" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$1.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$2.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity$2.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$3.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity$3.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$4.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity$4.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$5.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity$5.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity$5.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$6.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity$6.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity$6.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$7.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity$7.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity$7.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$Asyhandler.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity$Asyhandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/HomeActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/HomeActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/helpers/JSON_Parser$1.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/helpers/JSON_Parser$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/helpers/JSON_Parser.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/helpers/JSON_Parser.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/customview/JumpMenuUtil$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/customview/JumpMenuUtil$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/customview/JumpMenuUtil.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/customview/JumpMenuUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/customview/JumpMenuUtil.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/customview/JumpMenuUtil.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/ListviewAdaptar.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/ListviewAdaptar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/ListviewAdaptar.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/ListviewAdaptar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MemberActivity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MemberActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/usefragment/MenuFragment.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/usefragment/MenuFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/usefragment/MenuFragment.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/usefragment/MenuFragment.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MineActivity$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MineActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MineActivity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MineActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MyCarActivity$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MyCarActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MyCarActivity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MyCarActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/database/MyCarDBHelper.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/database/MyCarDBHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/database/MyCarDBHelper.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/database/MyCarDBHelper.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/MyCarListActivity$1.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/MyCarListActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MyCarListActivity$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MyCarListActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/MyCarListActivity$2.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/MyCarListActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MyCarListActivity$2.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MyCarListActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/MyCarListActivity.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/MyCarListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MyCarListActivity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MyCarListActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/MyCarListAdapter$1$1$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/MyCarListAdapter$1$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/MyCarListAdapter$1$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/MyCarListAdapter$1$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/MyCarListAdapter$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/MyCarListAdapter$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/MyCarListAdapter$AsyHandler$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/MyCarListAdapter$AsyHandler$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/MyCarListAdapter$AsyHandler.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/MyCarListAdapter$AsyHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/MyCarListAdapter.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/MyCarListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MyOrderActivity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/MyOrderActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/MyOrderAdapter.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/MyOrderAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/OrderActitity$1.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/OrderActitity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/OrderActitity$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/OrderActitity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/OrderActitity$2.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/OrderActitity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/OrderActitity$2.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/OrderActitity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/OrderActitity$Backlistener.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/OrderActitity$Backlistener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/OrderActitity$Backlistener.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/OrderActitity$Backlistener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/OrderActitity.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/OrderActitity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/OrderActitity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/OrderActitity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PayPageActivity$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PayPageActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PayPageActivity$2.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PayPageActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PayPageActivity$3.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PayPageActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PayPageActivity$4.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PayPageActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PayPageActivity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PayPageActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/customview/AsortList/PinyinAdapter.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/customview/AsortList/PinyinAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/customview/AsortList/PinyinAdapter.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/customview/AsortList/PinyinAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/PoiSearchActivity$1.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/PoiSearchActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PoiSearchActivity$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PoiSearchActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/PoiSearchActivity$2.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/PoiSearchActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PoiSearchActivity$2.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PoiSearchActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/PoiSearchActivity$3.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/PoiSearchActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PoiSearchActivity$3.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PoiSearchActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/PoiSearchActivity$4.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/PoiSearchActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PoiSearchActivity$4.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PoiSearchActivity$4.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/PoiSearchActivity$Adapter.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/PoiSearchActivity$Adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PoiSearchActivity$Adapter.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PoiSearchActivity$Adapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/PoiSearchActivity.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/PoiSearchActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PoiSearchActivity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/PoiSearchActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/R$color.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$color.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$color.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/R$dimen.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$dimen.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$dimen.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/R$drawable.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$drawable.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$drawable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/jeremyfeinstein/slidingmenu/lib/R$id.class" afterPath="$PROJECT_DIR$/bin/classes/com/jeremyfeinstein/slidingmenu/lib/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/R$id.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/com/jeremyfeinstein/slidingmenu/lib/R$id.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/com/jeremyfeinstein/slidingmenu/lib/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$id.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$id.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/com/jeremyfeinstein/slidingmenu/lib/R$layout.class" afterPath="$PROJECT_DIR$/bin/classes/com/jeremyfeinstein/slidingmenu/lib/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/R$layout.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/com/jeremyfeinstein/slidingmenu/lib/R$layout.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/com/jeremyfeinstein/slidingmenu/lib/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$layout.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$layout.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/R$string.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$string.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$string.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/R$style.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$style.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$style.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/R$styleable.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$styleable.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R$styleable.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/R.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/classbean/SearchResult.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/classbean/SearchResult.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/adapter/SecondMenuAdapter.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/adapter/SecondMenuAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/adapter/SecondMenuAdapter.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/adapter/SecondMenuAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/ServiceDetailActivity$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/ServiceDetailActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/ServiceDetailActivity.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/ServiceDetailActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/ServiceDetailActivity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/ServiceDetailActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/ServiceItemsActivity$1.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/ServiceItemsActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/ServiceItemsActivity$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/ServiceItemsActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/ServiceItemsActivity$2.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/ServiceItemsActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/ServiceItemsActivity$2.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/ServiceItemsActivity$2.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/ServiceItemsActivity$3.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/ServiceItemsActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/ServiceItemsActivity$3.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/ServiceItemsActivity$3.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/ServiceItemsActivity$AsyHandler.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/ServiceItemsActivity$AsyHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/ServiceItemsActivity$AsyHandler.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/ServiceItemsActivity$AsyHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/ServiceItemsActivity.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/ServiceItemsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/ServiceItemsActivity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/ServiceItemsActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/ServiceListAdapter$ButtonClickListner.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/ServiceListAdapter$ButtonClickListner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/ServiceListAdapter$ButtonClickListner.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/ServiceListAdapter$ButtonClickListner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/ServiceListAdapter$Holder.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/ServiceListAdapter$Holder.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/ServiceListAdapter.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/ServiceListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/ServiceListAdapter.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/ServiceListAdapter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/SexSelectActivity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/SexSelectActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/helpers/TextFinal.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/helpers/TextFinal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/helpers/TextFinal.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/helpers/TextFinal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/classbean/UserInfo.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/classbean/UserInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/classbean/UserInfo.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/classbean/UserInfo.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/WashTimeActivity$1.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/WashTimeActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/WashTimeActivity$1.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/WashTimeActivity$1.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/WashTimeActivity$AsyHandler.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/WashTimeActivity$AsyHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/WashTimeActivity$AsyHandler.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/WashTimeActivity$AsyHandler.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/WashTimeActivity$Date_Click_Listener.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/WashTimeActivity$Date_Click_Listener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/WashTimeActivity$Date_Click_Listener.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/WashTimeActivity$Date_Click_Listener.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/activity/WashTimeActivity.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/activity/WashTimeActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/WashTimeActivity.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/activity/WashTimeActivity.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/WashTimeAdaptar$BtnClickListenner.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/WashTimeAdaptar$BtnClickListenner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/WashTimeAdaptar$BtnClickListenner.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/WashTimeAdaptar$BtnClickListenner.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/WashTimeAdaptar.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/singleadaptar/WashTimeAdaptar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/WashTimeAdaptar.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/singleadaptar/WashTimeAdaptar.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/classes/net/wash8/helpers/appURLFinal.class" afterPath="$PROJECT_DIR$/bin/classes/net/wash8/helpers/appURLFinal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/helpers/appURLFinal.class" afterPath="$PROJECT_DIR$/out/production/DingdingCarWash/net/wash8/helpers/appURLFinal.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/arrow_left.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/arrow_left.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/default_avatar.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/default_avatar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/dividing_line.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/dividing_line.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/eye_listitem.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/eye_listitem.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_add_right.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_add_right.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_addcar.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_addcar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_back.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_back.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_checked.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_checked.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/icon_leftmenu_update.png" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/icon_leftmenu_update.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_mine_coupon.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_mine_coupon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_mine_member.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_mine_member.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_mine_mycar.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_mine_mycar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_mine_order.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_mine_order.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_ordertime_paypage.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_ordertime_paypage.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_ratingbar.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_ratingbar.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_ratingbar_full.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_ratingbar_full.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_servicelist.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_servicelist.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_unchecked.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_unchecked.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/icon_update_anchorpoint.png" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/icon_update_anchorpoint.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_washcar_paypage.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_washcar_paypage.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_washname_paypage.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_washname_paypage.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_washphone_paypage.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_washphone_paypage.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_washplace.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_washplace.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_washplace_paypage.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_washplace_paypage.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_washprice_paypage.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_washprice_paypage.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/icon_washtime.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/icon_washtime.png" />
+      <change type="MODIFICATION" beforePath="D:\workspace\DingdingCarWash\res\drawable-hdpi\iv_showcar_carlist.png" afterPath="D:\workspace\DingdingCarWash\res\drawable-hdpi\iv_showcar_carlist.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/left_menu.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/left_menu.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/left_menu_background.png" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/left_menu_background.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/left_menu_head.png" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/left_menu_head.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/logo_180x180.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/logo_180x180.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/member_card.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/member_card.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/mine.png" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/mine.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/order.png" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/order.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/photo_car.png" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/photo_car.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/right_icon.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/right_icon.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/shop.png" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/shop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/drawable-hdpi/shop.png" afterPath="$PROJECT_DIR$/res/drawable-hdpi/shop.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../slidingmenulibrary/bin/slidingmenulibrary.jar" afterPath="$PROJECT_DIR$/../slidingmenulibrary/bin/slidingmenulibrary.jar" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/text_leftmenu_advice.png" afterPath="$PROJECT_DIR$/bin/res/crunch/drawable-hdpi/text_leftmenu_advice.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.classpath" afterPath="$PROJECT_DIR$/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../slidingmenulibrary/.classpath" afterPath="$PROJECT_DIR$/../slidingmenulibrary/.classpath" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/AboutActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/AboutActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/AboutmeActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/AboutmeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/AndroidManifest.xml" afterPath="$PROJECT_DIR$/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/AndroidManifest.xml" afterPath="$PROJECT_DIR$/bin/AndroidManifest.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/CarInfoActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/CarInfoActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/singleadaptar/CarlistonBaseAdapter.java" afterPath="$PROJECT_DIR$/src/net/wash8/singleadaptar/CarlistonBaseAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/customview/CustomTitle.java" afterPath="$PROJECT_DIR$/src/net/wash8/customview/CustomTitle.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/DingdingCarWash.iml" afterPath="$PROJECT_DIR$/DingdingCarWash.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/HomeActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/HomeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/singleadaptar/ListviewAdaptar.java" afterPath="$PROJECT_DIR$/src/net/wash8/singleadaptar/ListviewAdaptar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/MineActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/MineActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/MyCarActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/MyCarActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/database/MyCarDBHelper.java" afterPath="$PROJECT_DIR$/src/net/wash8/database/MyCarDBHelper.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/MyCarListActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/MyCarListActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/singleadaptar/MyCarListAdapter.java" afterPath="$PROJECT_DIR$/src/net/wash8/singleadaptar/MyCarListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/OrderActitity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/OrderActitity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/PayPageActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/PayPageActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/PoiSearchActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/PoiSearchActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/gen/net/wash8/R.java" afterPath="$PROJECT_DIR$/gen/net/wash8/R.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/R.txt" afterPath="$PROJECT_DIR$/bin/R.txt" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/RegisterActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/RegisterActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/RegisterIndexActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/RegisterIndexActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/SalePriceActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/SalePriceActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/adapter/SalePriceAdapter.java" afterPath="$PROJECT_DIR$/src/net/wash8/adapter/SalePriceAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/SalePriceDetailActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/SalePriceDetailActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/ServiceDetailActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/ServiceDetailActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/ServiceItemsActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/ServiceItemsActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/singleadaptar/ServiceListAdapter.java" afterPath="$PROJECT_DIR$/src/net/wash8/singleadaptar/ServiceListAdapter.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/helpers/TextFinal.java" afterPath="$PROJECT_DIR$/src/net/wash8/helpers/TextFinal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/classbean/UserInfo.java" afterPath="$PROJECT_DIR$/src/net/wash8/classbean/UserInfo.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/activity/WashTimeActivity.java" afterPath="$PROJECT_DIR$/src/net/wash8/activity/WashTimeActivity.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/singleadaptar/WashTimeAdaptar.java" afterPath="$PROJECT_DIR$/src/net/wash8/singleadaptar/WashTimeAdaptar.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_about.xml" afterPath="$PROJECT_DIR$/res/layout/activity_about.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_aboutme.xml" afterPath="$PROJECT_DIR$/res/layout/activity_aboutme.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_car_info.xml" afterPath="$PROJECT_DIR$/res/layout/activity_car_info.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_member.xml" afterPath="$PROJECT_DIR$/res/layout/activity_member.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_mine.xml" afterPath="$PROJECT_DIR$/res/layout/activity_mine.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_mycarlist.xml" afterPath="$PROJECT_DIR$/res/layout/activity_mycarlist.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_order.xml" afterPath="$PROJECT_DIR$/res/layout/activity_order.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_orderitem.xml" afterPath="$PROJECT_DIR$/res/layout/activity_orderitem.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_ordertime.xml" afterPath="$PROJECT_DIR$/res/layout/activity_ordertime.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_paypage.xml" afterPath="$PROJECT_DIR$/res/layout/activity_paypage.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_poi_search.xml" afterPath="$PROJECT_DIR$/res/layout/activity_poi_search.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_register.xml" afterPath="$PROJECT_DIR$/res/layout/activity_register.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_rigister_index.xml" afterPath="$PROJECT_DIR$/res/layout/activity_rigister_index.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_sale_price.xml" afterPath="$PROJECT_DIR$/res/layout/activity_sale_price.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/activity_servicedetail.xml" afterPath="$PROJECT_DIR$/res/layout/activity_servicedetail.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/adapter_sale_price_item.xml" afterPath="$PROJECT_DIR$/res/layout/adapter_sale_price_item.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/net/wash8/helpers/appURLFinal.java" afterPath="$PROJECT_DIR$/src/net/wash8/helpers/appURLFinal.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/assets/cars.xml" afterPath="$PROJECT_DIR$/assets/cars.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/choose_car_color_menu.xml" afterPath="$PROJECT_DIR$/res/layout/choose_car_color_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/colors.xml" afterPath="$PROJECT_DIR$/res/values/colors.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/custom_title.xml" afterPath="$PROJECT_DIR$/res/layout/custom_title.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/bin/jarlist.cache" afterPath="$PROJECT_DIR$/bin/jarlist.cache" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/jump_menu.xml" afterPath="$PROJECT_DIR$/res/layout/jump_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/left_menu.xml" afterPath="$PROJECT_DIR$/res/layout/left_menu.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/listview_carlist.xml" afterPath="$PROJECT_DIR$/res/layout/listview_carlist.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/listview_mycar.xml" afterPath="$PROJECT_DIR$/res/layout/listview_mycar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/listview_myorder.xml" afterPath="$PROJECT_DIR$/res/layout/listview_myorder.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/listview_servieitem.xml" afterPath="$PROJECT_DIR$/res/layout/listview_servieitem.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/listview_view_1th.xml" afterPath="$PROJECT_DIR$/res/layout/listview_view_1th.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/main.xml" afterPath="$PROJECT_DIR$/res/layout/main.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/poi_search_bar.xml" afterPath="$PROJECT_DIR$/res/layout/poi_search_bar.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/values/strings.xml" afterPath="$PROJECT_DIR$/res/values/strings.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/res/layout/viewpager_comparison.xml" afterPath="$PROJECT_DIR$/res/layout/viewpager_comparison.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
+    <ignored path="DingdingCarWash.iws" />
+    <ignored path=".idea/workspace.xml" />
+    <ignored path="$PROJECT_DIR$/out/" />
+    <ignored path=".idea/dataSources.local.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ChangesViewManager" flattened_view="true" show_ignored="false" />
+  <component name="CreatePatchCommitExecutor">
+    <option name="PATCH_PATH" value="" />
+  </component>
+  <component name="DaemonCodeAnalyzer">
+    <disable_hints />
+  </component>
+  <component name="DatabaseView">
+    <option name="FLATTEN" value="false" />
+    <option name="GROUP_BY_TYPE" value="true" />
+    <option name="SORT_CHILDREN" value="false" />
+    <option name="SHOW_TABLE_CONSTRAINTS" value="true" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="DingdingCarWash" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf>
+      <file leaf-file-name="completedactivity.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/completedactivity.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4476" max-vertical-offset="5500">
+              <caret line="250" column="49" selection-start-line="250" selection-start-column="49" selection-end-line="250" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CompletedActivity.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/CompletedActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="260" max-vertical-offset="440">
+              <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="activity_paypage.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/res/layout/activity_paypage.xml">
+          <provider editor-type-id="android-designer">
+            <state />
+          </provider>
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="4905" max-vertical-offset="5480">
+              <caret line="257" column="8" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="PayPageActivity.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/PayPageActivity.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="5340">
+              <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="LinearLayoutForListView.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/net/wash8/customview/LinearLayoutForListView.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.0" vertical-offset="480" max-vertical-offset="660">
+              <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="false" />
+                <element signature="e#342#343#0" expanded="false" />
+                <element signature="e#372#373#0" expanded="false" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="GenerateSignedApkSettings">
+    <option name="KEY_STORE_PATH" value="D:\key\keystore" />
+    <option name="KEY_ALIAS" value="keystore" />
+    <option name="REMEMBER_PASSWORDS" value="true" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/res/layout/jump_menu.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_welcome.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_mine.xml" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/RegisterIndexActivity.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/WashTimeActivity.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/customview/CustomTitle.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/SignActivity.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/camera/AutoFocusCallback.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/camera/CameraConfigurationManager.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/camera/FlashlightManager.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/camera/PlanarYUVLuminanceSource.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/camera/PreviewCallback.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/decoding/CaptureActivityHandler.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/decoding/DecodeHandler.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/decoding/DecodeThread.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_sign.xml" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/MipcaActivityCapture.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/view/ViewfinderView.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/mining/app/zxing/camera/CameraManager.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/MineActivity.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/PoiSearchActivity.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/helpers/appURLFinal.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/ShopActivity.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/AboutmeActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_paypage.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_aboutme.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_about.xml" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/WelcomeActivity.java" />
+        <option value="$PROJECT_DIR$/assets/cars.xml" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/HomeActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/viewpager_comparison.xml" />
+        <option value="$PROJECT_DIR$/res/layout/listview_servieitem.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_servicedetail.xml" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/OrderActitity.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/RegisterActivity.java" />
+        <option value="$PROJECT_DIR$/res/layout/main.xml" />
+        <option value="$PROJECT_DIR$/res/values/colors.xml" />
+        <option value="$PROJECT_DIR$/res/values/strings.xml" />
+        <option value="$PROJECT_DIR$/src/net/wash8/singleadaptar/CarlistonBaseAdapter.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/MyCarListActivity.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/MyCarActivity.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/singleadaptar/MyCarListAdapter.java" />
+        <option value="$PROJECT_DIR$/res/layout/activity_car_info.xml" />
+        <option value="$PROJECT_DIR$/res/layout/activity_order.xml" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/CarInfoActivity.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/PayPageActivity.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/AboutActivity.java" />
+        <option value="$PROJECT_DIR$/src/net/wash8/customview/LinearLayoutForListView.java" />
+        <option value="$PROJECT_DIR$/res/layout/completedactivity.xml" />
+        <option value="$PROJECT_DIR$/src/net/wash8/activity/CompletedActivity.java" />
+        <option value="$PROJECT_DIR$/AndroidManifest.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="271" />
+    <option name="width" value="1646" />
+    <option name="height" value="1040" />
+  </component>
+  <component name="ProjectInspectionProfilesVisibleTreeState">
+    <entry key="Project Default">
+      <profile-state>
+        <expanded-state>
+          <State>
+            <id />
+          </State>
+          <State>
+            <id>Abstraction issues</id>
+          </State>
+          <State>
+            <id>Android</id>
+          </State>
+          <State>
+            <id>Android Lint</id>
+          </State>
+          <State>
+            <id>Code maturity issues</id>
+          </State>
+          <State>
+            <id>General</id>
+          </State>
+          <State>
+            <id>Inheritance issues</id>
+          </State>
+          <State>
+            <id>Performance issues</id>
+          </State>
+          <State>
+            <id>Plugin DevKit</id>
+          </State>
+          <State>
+            <id>Probable bugs</id>
+          </State>
+        </expanded-state>
+        <selected-state>
+          <State>
+            <id>AndroidDomInspection</id>
+          </State>
+        </selected-state>
+      </profile-state>
+    </entry>
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
+    <OptionsSetting value="true" id="Undo Check Out" />
+    <OptionsSetting value="true" id="Get Latest Version" />
+    <ConfirmationsSetting value="0" id="Add" />
+    <ConfirmationsSetting value="2" id="Remove" />
+  </component>
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DingdingCarWash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android SDK &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DingdingCarWash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android SDK &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annotations.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DingdingCarWash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="External Libraries" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ExternalLibrariesNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="&lt; Android SDK &gt;" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.NamedLibraryElementNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annotations.jar" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="annotation" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DingdingCarWash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DingdingCarWash" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="GoToClass.includeLibraries" value="false" />
+    <property name="GoToClass.toSaveIncludeLibraries" value="false" />
+    <property name="GoToFile.includeJavaFiles" value="false" />
+    <property name="MemberChooser.sorted" value="false" />
+    <property name="MemberChooser.showClasses" value="true" />
+    <property name="MemberChooser.copyJavadoc" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="recentsLimit" value="5" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_SERIALS" value="353BCHCTKA86" />
+    <property name="last_opened_file_path" value="C:/Program Files (x86)/Git/bin/git.exe" />
+    <property name="options.lastSelected" value="vcs.Git" />
+    <property name="options.splitter.main.proportions" value="0.3" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="project.structure.last.edited" value="Project" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="FullScreen" value="false" />
+    <property name="LayoutCode.rearrangeEntriesXML" value="false" />
+    <property name="restartRequiresConfirmation" value="true" />
+    <property name="OverrideImplement.combined" value="true" />
+    <property name="OverrideImplement.overriding.sorted" value="false" />
+    <property name="LayoutCode.rearrangeEntriesJava" value="false" />
+    <property name="ANDROID_EXTENDED_DEVICE_CHOOSER_AVD" value="aaa" />
+    <property name="ExportedModule" value="DingdingCarWash" />
+    <property name="ExportedApkPath" value="C:\Users\ncb-user\Desktop\net.wash8.apk" />
+    <property name="AndroidRunProguardForReleaseBuild" value="false" />
+    <property name="AndroidProguardConfigPaths" value="C:\android-sdk\sdk\tools\proguard\proguard-android.txt;D:\workspace\DingdingCarWash\proguard-project.txt" />
+    <property name="dynamic.classpath" value="false" />
+    <property name="LayoutCode.rearrangeEntries" value="false" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/src" />
+    <property name="show.inlinked.gradle.project.popup" value="false" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\workspace\DingdingCarWash\src\net\wash8\activity" />
+      <recent name="D:\workspace\DingdingCarWash\res\drawable" />
+      <recent name="D:\workspace\DingdingCarWash\res\layout" />
+      <recent name="D:\workspace\DingdingCarWash\res\drawable-hdpi" />
+      <recent name="D:\workspace\DingdingCarWash\src\net\wash8" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\DingdingCarWash\res\drawable-hdpi" />
+      <recent name="D:\workspace\DingdingCarWash\src\net\wash8" />
+      <recent name="D:\workspace\DingdingCarWash\res\layout" />
+      <recent name="D:\workspace\DingdingCarWash\src\net\wash8\activity" />
+      <recent name="D:\workspace\DingdingCarWash\res\drawable-ldpi" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.tbt.DingdingCarWash" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tbt.DingdingCarWash" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Android Application.DingdingCarWash">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration default="true" type="Remote" factoryName="Remote">
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" value="javadebug" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
+      <module name="" />
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+      <option name="PROGRAM_PARAMETERS" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GrailsRunConfigurationType" factoryName="Grails">
+      <module name="" />
+      <setting name="vmparams" value="" />
+      <setting name="cmdLine" value="run-app" />
+      <setting name="depsClasspath" value="false" />
+      <setting name="passParentEnv" value="true" />
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <setting name="launchBrowser" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JarApplication" factoryName="JAR Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="JAR_PATH" value="$PROJECT_DIR$/libs/afinal_0.5.1_bin.jar" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="TestNG" factoryName="TestNG">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SUITE_NAME" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="GROUP_NAME" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="OUTPUT_DIRECTORY" />
+      <option name="ANNOTATION_TYPE" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <option name="USE_DEFAULT_REPORTERS" value="false" />
+      <option name="PROPERTIES_FILE" />
+      <envs />
+      <properties />
+      <listeners />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <pass-parent-envs>true</pass-parent-envs>
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlexUnitRunConfigurationType" factoryName="FlexUnit" appDescriptorForEmulator="Android" class_name="" emulatorAdlOptions="" method_name="" package_name="" scope="Class">
+      <option name="BCName" value="" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="moduleName" value="" />
+      <option name="trusted" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="AndroidTestRunConfigurationType" factoryName="Android Tests">
+      <module name="" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <method />
+    </configuration>
+    <configuration default="true" type="FlashRunConfigurationType" factoryName="Flash App">
+      <option name="BCName" value="" />
+      <option name="IOSSimulatorSdkPath" value="" />
+      <option name="adlOptions" value="" />
+      <option name="airProgramParameters" value="" />
+      <option name="appDescriptorForEmulator" value="Android" />
+      <option name="debugTransport" value="USB" />
+      <option name="debuggerSdkRaw" value="BC SDK" />
+      <option name="emulator" value="NexusOne" />
+      <option name="emulatorAdlOptions" value="" />
+      <option name="fastPackaging" value="true" />
+      <option name="fullScreenHeight" value="0" />
+      <option name="fullScreenWidth" value="0" />
+      <option name="launchUrl" value="false" />
+      <option name="launcherParameters">
+        <LauncherParameters>
+          <option name="browser" value="a7bb68e0-33c0-4d6f-a81a-aac1fdb870c8" />
+          <option name="launcherType" value="OSDefault" />
+          <option name="newPlayerInstance" value="false" />
+          <option name="playerPath" value="FlashPlayerDebugger.exe" />
+        </LauncherParameters>
+      </option>
+      <option name="mobileRunTarget" value="Emulator" />
+      <option name="moduleName" value="" />
+      <option name="overriddenMainClass" value="" />
+      <option name="overriddenOutputFileName" value="" />
+      <option name="overrideMainClass" value="false" />
+      <option name="runTrusted" value="true" />
+      <option name="screenDpi" value="0" />
+      <option name="screenHeight" value="0" />
+      <option name="screenWidth" value="0" />
+      <option name="url" value="http://" />
+      <option name="usbDebugPort" value="7936" />
+      <method />
+    </configuration>
+    <configuration default="true" type="GradleRunConfiguration" factoryName="Gradle">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list />
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
+      <method />
+    </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method />
+    </configuration>
+    <configuration default="true" type="CucumberJavaRunConfigurationType" factoryName="Cucumber java">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="myFilePath" />
+      <option name="GLUE" />
+      <option name="myNameFilter" />
+      <option name="myGeneratedName" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="com.intellij.database.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
+      <option name="VM_PARAMETERS" value="" />
+      <option name="USER_CFG_CLASS" />
+      <option name="CONTEXT_PROVIDER" />
+      <method />
+    </configuration>
+    <configuration default="false" name="example" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="example" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="EMULATOR" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="myapp" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="myapp" />
+      <option name="ACTIVITY_CLASS" value="com.example.myapp.MyActivity" />
+      <option name="MODE" value="specific_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="All Tests" type="AndroidTestRunConfigurationType" factoryName="Android Tests" nameIsGenerated="true">
+      <module name="DingdingCarWash" />
+      <option name="TESTING_TYPE" value="0" />
+      <option name="INSTRUMENTATION_RUNNER_CLASS" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <configuration default="false" name="DingdingCarWash" type="AndroidRunConfigurationType" factoryName="Android Application">
+      <module name="DingdingCarWash" />
+      <option name="ACTIVITY_CLASS" value="com.tbt.wash8.activity.MyActivity" />
+      <option name="MODE" value="default_activity" />
+      <option name="DEPLOY" value="true" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="USE_LAST_SELECTED_DEVICE" value="false" />
+      <option name="PREFERRED_AVD" value="" />
+      <option name="USE_COMMAND_LINE" value="true" />
+      <option name="COMMAND_LINE" value="" />
+      <option name="WIPE_USER_DATA" value="false" />
+      <option name="DISABLE_BOOT_ANIMATION" value="false" />
+      <option name="NETWORK_SPEED" value="full" />
+      <option name="NETWORK_LATENCY" value="none" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="true" />
+      <option name="FILTER_LOGCAT_AUTOMATICALLY" value="true" />
+      <RunnerSettings RunnerId="AndroidDebugRunner" />
+      <ConfigurationWrapper RunnerId="AndroidDebugRunner" />
+      <method />
+    </configuration>
+    <list size="4">
+      <item index="0" class="java.lang.String" itemvalue="Android Application.example" />
+      <item index="1" class="java.lang.String" itemvalue="Android Application.myapp" />
+      <item index="2" class="java.lang.String" itemvalue="Android Tests.All Tests" />
+      <item index="3" class="java.lang.String" itemvalue="Android Application.DingdingCarWash" />
+    </list>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
+  <component name="SvnConfiguration" cleanupOnStartRun="true">
+    <configuration>C:\Users\ncb-user\AppData\Roaming\Subversion</configuration>
+    <supportedVersion>125</supportedVersion>
+  </component>
+  <component name="SvnFileUrlMappingImpl">
+    <option name="myMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspace\DingdingCarWash" />
+          <option name="myCopyRoot" value="D:\workspace\DingdingCarWash" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspace\DingdingCarWash\.idea" />
+          <option name="myCopyRoot" value="D:\workspace\DingdingCarWash\.idea" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspace\slidingmenulibrary" />
+          <option name="myCopyRoot" value="D:\workspace\slidingmenulibrary" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+    <option name="myMoreRealMappingRoots">
+      <list>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspace\DingdingCarWash" />
+          <option name="myCopyRoot" value="D:\workspace\DingdingCarWash" />
+        </SvnCopyRootSimple>
+        <SvnCopyRootSimple>
+          <option name="myVcsRoot" value="D:\workspace\slidingmenulibrary" />
+          <option name="myCopyRoot" value="D:\workspace\slidingmenulibrary" />
+        </SvnCopyRootSimple>
+      </list>
+    </option>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7b071449-68a6-494c-9907-9859c82e87f4" name="Default" comment="" />
+      <created>1418294365087</created>
+      <option name="number" value="Default" />
+      <updated>1418294365087</updated>
+      <workItem from="1418294366548" duration="2880000" />
+      <workItem from="1418305800635" duration="770000" />
+      <workItem from="1418306585746" duration="481000" />
+      <workItem from="1418307122964" duration="2777000" />
+      <workItem from="1418311303231" duration="666000" />
+      <workItem from="1418312538868" duration="2777000" />
+      <workItem from="1418349627975" duration="26705000" />
+      <workItem from="1418380025561" duration="1633000" />
+      <workItem from="1418387445001" duration="4719000" />
+      <workItem from="1418564082443" duration="78000" />
+      <workItem from="1418564456141" duration="7886000" />
+      <workItem from="1418572500109" duration="2040000" />
+      <workItem from="1418609317511" duration="21096000" />
+      <workItem from="1418642605040" duration="42000" />
+      <workItem from="1418650167211" duration="10050000" />
+      <workItem from="1418717726713" duration="2470000" />
+      <workItem from="1418723117027" duration="2345000" />
+      <workItem from="1418781117161" duration="5207000" />
+      <workItem from="1418786347594" duration="1986000" />
+      <workItem from="1418790515894" duration="84000" />
+      <workItem from="1418795918816" duration="604000" />
+      <workItem from="1418796534693" duration="2502000" />
+      <workItem from="1418799219684" duration="1948000" />
+      <workItem from="1418801326847" duration="1368000" />
+      <workItem from="1418802711422" duration="1073000" />
+      <workItem from="1418804112824" duration="457000" />
+      <workItem from="1418804584230" duration="208000" />
+      <workItem from="1418804868647" duration="290000" />
+      <workItem from="1418805171338" duration="239000" />
+      <workItem from="1418805424607" duration="364000" />
+      <workItem from="1418805803867" duration="295000" />
+      <workItem from="1418807576292" duration="419000" />
+      <workItem from="1418808011488" duration="112000" />
+      <workItem from="1418808140007" duration="358000" />
+      <workItem from="1418808509735" duration="1069000" />
+      <workItem from="1418809705850" duration="4493000" />
+      <workItem from="1418867264308" duration="11761000" />
+      <workItem from="1418887058100" duration="1619000" />
+      <workItem from="1418890084131" duration="1293000" />
+      <workItem from="1418891673557" duration="614000" />
+      <workItem from="1418893616229" duration="1586000" />
+      <workItem from="1418895232871" duration="257000" />
+      <workItem from="1418895530851" duration="7218000" />
+      <workItem from="1418953348533" duration="31284000" />
+      <workItem from="1418996151296" duration="509000" />
+      <workItem from="1418996684294" duration="1939000" />
+      <workItem from="1418998638944" duration="55000" />
+      <workItem from="1418998708227" duration="715000" />
+      <workItem from="1418999442507" duration="53000" />
+      <workItem from="1418999510017" duration="88000" />
+      <workItem from="1418999614461" duration="100000" />
+      <workItem from="1418999730324" duration="11430000" />
+      <workItem from="1419041631563" duration="2484000" />
+      <workItem from="1419046375943" duration="1153000" />
+      <workItem from="1419047543209" duration="27942000" />
+      <workItem from="1419089023328" duration="4913000" />
+      <workItem from="1419170165723" duration="77000" />
+      <workItem from="1419252251054" duration="2473000" />
+      <workItem from="1419255803879" duration="201000" />
+      <workItem from="1419256021220" duration="59000" />
+      <workItem from="1419256092890" duration="101000" />
+      <workItem from="1419256206972" duration="48000" />
+      <workItem from="1419256279014" duration="226000" />
+      <workItem from="1419256564939" duration="156000" />
+      <workItem from="1419256737295" duration="1871000" />
+      <workItem from="1419258628289" duration="4281000" />
+      <workItem from="1419262930348" duration="387000" />
+      <workItem from="1419263331416" duration="838000" />
+      <workItem from="1419300601519" duration="12818000" />
+      <workItem from="1419317621642" duration="18813000" />
+      <workItem from="1419343895144" duration="7962000" />
+      <workItem from="1419386961043" duration="2433000" />
+      <workItem from="1419389452850" duration="28447000" />
+      <workItem from="1419473291449" duration="477000" />
+      <workItem from="1419474218435" duration="27512000" />
+      <workItem from="1419505138810" duration="1887000" />
+      <workItem from="1419561322149" duration="6536000" />
+      <workItem from="1419570172830" duration="457000" />
+      <workItem from="1419570670310" duration="21216000" />
+      <workItem from="1419599914557" duration="2777000" />
+      <workItem from="1419605010090" duration="20110000" />
+      <workItem from="1419645227136" duration="29415000" />
+      <workItem from="1419818023784" duration="24803000" />
+      <workItem from="1419904242116" duration="29636000" />
+      <workItem from="1419993182157" duration="19664000" />
+      <workItem from="1420013869519" duration="11814000" />
+      <workItem from="1420336813761" duration="1542000" />
+      <workItem from="1420339039242" duration="27245000" />
+      <workItem from="1420422508561" duration="26529000" />
+      <workItem from="1420509466275" duration="30815000" />
+      <workItem from="1420595225883" duration="26054000" />
+      <workItem from="1420682170703" duration="25605000" />
+      <workItem from="1420768286305" duration="24508000" />
+      <workItem from="1420800575323" duration="46000" />
+      <workItem from="1420800667217" duration="1355000" />
+      <workItem from="1421032852892" duration="5701000" />
+      <workItem from="1421040649244" duration="9321000" />
+      <workItem from="1421056536762" duration="56000" />
+      <workItem from="1421056866605" duration="4209000" />
+      <workItem from="1421114828612" duration="8304000" />
+      <workItem from="1421126907066" duration="16511000" />
+      <workItem from="1421200053387" duration="30636000" />
+      <workItem from="1421286587990" duration="16059000" />
+      <workItem from="1421308114103" duration="11156000" />
+      <workItem from="1421372736270" duration="9146000" />
+      <workItem from="1421387356932" duration="8850000" />
+      <workItem from="1421396295311" duration="12637000" />
+      <workItem from="1421409768512" duration="2300000" />
+      <workItem from="1421413568345" duration="973000" />
+      <workItem from="1421459747488" duration="27845000" />
+      <workItem from="1421631833293" duration="21779000" />
+      <workItem from="1421656104174" duration="6549000" />
+      <workItem from="1421662935553" duration="4668000" />
+      <workItem from="1421719085686" duration="28872000" />
+      <workItem from="1421804581258" duration="29021000" />
+      <workItem from="1421891275935" duration="27451000" />
+      <workItem from="1421977834574" duration="9079000" />
+      <workItem from="1422237059525" duration="23122000" />
+      <workItem from="1422322756311" duration="13711000" />
+      <workItem from="1422409088585" duration="2256000" />
+      <workItem from="1422412304617" duration="2681000" />
+      <workItem from="1422415213428" duration="2234000" />
+      <workItem from="1422417849880" duration="309000" />
+      <workItem from="1422418261910" duration="4616000" />
+      <workItem from="1422424918665" duration="9079000" />
+      <workItem from="1422496662993" duration="1127000" />
+      <workItem from="1422503014584" duration="72000" />
+      <workItem from="1422506906211" duration="600000" />
+      <workItem from="1422510144745" duration="2754000" />
+      <workItem from="1422513157176" duration="1105000" />
+      <workItem from="1422514386947" duration="6292000" />
+      <workItem from="1422581784264" duration="572000" />
+      <workItem from="1422844182953" duration="13839000" />
+      <workItem from="1422928009266" duration="15709000" />
+      <workItem from="1423014480447" duration="6003000" />
+      <workItem from="1423020640320" duration="356000" />
+      <workItem from="1423021009270" duration="582000" />
+      <workItem from="1423021794317" duration="27000" />
+      <workItem from="1423021834525" duration="477000" />
+      <workItem from="1423022394073" duration="484000" />
+      <workItem from="1423022891984" duration="3872000" />
+      <workItem from="1423036191424" duration="2120000" />
+      <workItem from="1423100934111" duration="15295000" />
+      <workItem from="1423187468358" duration="7943000" />
+      <workItem from="1423201862963" duration="20273000" />
+      <workItem from="1423446310583" duration="6174000" />
+      <workItem from="1423532750196" duration="9789000" />
+      <workItem from="1423618939338" duration="4731000" />
+      <workItem from="1423705002187" duration="1174000" />
+      <workItem from="1425347679529" duration="8321000" />
+      <workItem from="1425433392404" duration="1373000" />
+      <workItem from="1426043312123" duration="115000" />
+      <workItem from="1426558720983" duration="3883000" />
+      <workItem from="1426646383483" duration="591000" />
+      <workItem from="1427164668026" duration="1876000" />
+      <workItem from="1427262759120" duration="1191000" />
+      <workItem from="1427344936037" duration="591000" />
+      <workItem from="1427510988267" duration="592000" />
+      <workItem from="1427698655673" duration="2982000" />
+      <workItem from="1427853112912" duration="753000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="1153467000" />
+  </component>
+  <component name="TodoView" selected-index="0">
+    <todo-panel id="selected-file">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="default-changelist">
+      <are-packages-shown value="false" />
+      <are-modules-shown value="false" />
+      <flatten-packages value="false" />
+      <is-autoscroll-to-source value="false" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="271" y="0" width="1646" height="1040" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32879817" sideWeight="0.49926794" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32941177" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Build Variants" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.20790629" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28004536" sideWeight="0.10529634" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="15" side_tool="false" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3280543" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
+      <window_info id="Android" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.28004536" sideWeight="0.8947037" order="12" side_tool="false" content_ui="tabs" x="32" y="372" width="1230" height="295" />
+      <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17213115" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Memory Monitor" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.110491075" sideWeight="0.81061226" order="13" side_tool="true" content_ui="tabs" />
+      <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32993197" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.17200784" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24979591" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.19593497" sideWeight="0.5" order="4" side_tool="true" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.05668934" sideWeight="0.49967298" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.2583519" sideWeight="0.49413645" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Documentation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="FLOATING" visible="false" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" x="180" y="100" width="1226" height="840" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.1519546" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31514478" sideWeight="0.73134327" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.084632516" sideWeight="0.4989339" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="myTodoPanelSettings">
+      <TodoPanelSettings />
+    </option>
+    <option name="LAST_COMMIT_MESSAGE" value="" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/net/wash8/adapter/SecondMenuAdapter.java</url>
+          <line>2</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://C:/android-sdk/sdk/platforms/android-17/android.jar!/org/apache/http/entity/StringEntity.class</url>
+          <line>28</line>
+          <properties />
+          <option name="timeStamp" value="12" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/net/wash8/activity/PoiSearchActivity.java</url>
+          <line>1</line>
+          <properties />
+          <option name="timeStamp" value="13" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="14" />
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <PATH>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="DingdingCarWash" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+      </PATH_ELEMENT>
+      <PATH_ELEMENT>
+        <option name="myItemId" value="DingdingCarWash" />
+        <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+      </PATH_ELEMENT>
+    </PATH>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/PoiSearchActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1186" max-vertical-offset="6460">
+          <caret line="131" column="40" selection-start-line="131" selection-start-column="40" selection-end-line="131" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/ShopActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="660">
+          <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/MineActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1558" max-vertical-offset="2340">
+          <caret line="94" column="0" selection-start-line="94" selection-start-column="0" selection-end-line="94" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/AboutmeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4354" max-vertical-offset="5020">
+          <caret line="268" column="23" selection-start-line="268" selection-start-column="23" selection-end-line="268" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_aboutme.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-21.32258" vertical-offset="3379" max-vertical-offset="4940">
+          <caret line="202" column="23" selection-start-line="202" selection-start-column="23" selection-end-line="202" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_about.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="3320">
+          <caret line="25" column="45" selection-start-line="25" selection-start-column="45" selection-end-line="25" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/assets/cars.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.4925127" vertical-offset="3060" max-vertical-offset="7040">
+          <caret line="18" column="9" selection-start-line="18" selection-start-column="9" selection-end-line="18" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/WelcomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6791531" vertical-offset="903" max-vertical-offset="2300">
+          <caret line="87" column="90" selection-start-line="87" selection-start-column="90" selection-end-line="87" selection-end-column="90" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/OrderItemActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.9560261" vertical-offset="2253" max-vertical-offset="4700">
+          <caret line="171" column="37" selection-start-line="171" selection-start-column="37" selection-end-line="171" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/order.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/net/AsyncHttpRequest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1239" max-vertical-offset="2360">
+          <caret line="96" column="69" selection-start-line="96" selection-start-column="69" selection-end-line="96" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable-hdpi/dividing_line.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gen/net/wash8/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="17760">
+          <caret line="19" column="11" selection-start-line="19" selection-start-column="11" selection-end-line="19" selection-end-column="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../slidingmenulibrary/gen/com/jeremyfeinstein/slidingmenu/lib/R.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="420" max-vertical-offset="7600">
+          <caret line="26" column="32" selection-start-line="26" selection-start-column="32" selection-end-line="26" selection-end-column="32" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/viewpager_comparison.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="180" max-vertical-offset="1100">
+          <caret line="9" column="4" selection-start-line="9" selection-start-column="4" selection-end-line="9" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/HomeActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1880" max-vertical-offset="6840">
+          <caret line="53" column="36" selection-start-line="53" selection-start-column="36" selection-end-line="53" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_serviceitems.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2020">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/listview_servieitem.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.129032" vertical-offset="0" max-vertical-offset="1020">
+          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_servicedetail.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-5.806452" vertical-offset="0" max-vertical-offset="3540">
+          <caret line="9" column="46" selection-start-line="9" selection-start-column="46" selection-end-line="9" selection-end-column="46" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/database/MyCarDBHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="600" max-vertical-offset="2760">
+          <caret line="59" column="73" selection-start-line="59" selection-start-column="73" selection-end-line="59" selection-end-column="73" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_mycarlist.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="703">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_register.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="607" max-vertical-offset="2380">
+          <caret line="47" column="56" selection-start-line="47" selection-start-column="46" selection-end-line="47" selection-end-column="56" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/RegisterActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2654" max-vertical-offset="3640">
+          <caret line="184" column="72" selection-start-line="184" selection-start-column="72" selection-end-line="184" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/helpers/appURLFinal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.1503006" vertical-offset="6" max-vertical-offset="880">
+          <caret line="30" column="65" selection-start-line="30" selection-start-column="65" selection-end-line="30" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/main.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-12.32258" vertical-offset="118" max-vertical-offset="2720">
+          <caret line="25" column="18" selection-start-line="25" selection-start-column="18" selection-end-line="25" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/champagne_circle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="637">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/coffee_circle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="637">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/colors.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="23" max-vertical-offset="780">
+          <caret line="28" column="0" selection-start-line="28" selection-start-column="0" selection-end-line="28" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/drawable/purple_circle.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="637">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/values/strings.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="500" max-vertical-offset="680">
+          <caret line="25" column="37" selection-start-line="25" selection-start-column="37" selection-end-line="25" selection-end-column="37" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/MipcaActivityCapture.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.0235479" vertical-offset="228" max-vertical-offset="4300">
+          <caret line="44" column="51" selection-start-line="44" selection-start-column="51" selection-end-line="44" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/../slidingmenulibrary/src/com/jeremyfeinstein/slidingmenu/lib/app/SlidingActivityHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="4220">
+          <caret line="10" column="42" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/choose_car_color_menu.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.516129" vertical-offset="3878" max-vertical-offset="6080">
+          <caret line="204" column="4" selection-start-line="204" selection-start-column="4" selection-end-line="204" selection-end-column="4" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/singleadaptar/CarlistonBaseAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.23583663" vertical-offset="1401" max-vertical-offset="3540">
+          <caret line="104" column="13" selection-start-line="104" selection-start-column="13" selection-end-line="112" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/MyCarListActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.49934125" vertical-offset="1401" max-vertical-offset="2760">
+          <caret line="115" column="17" selection-start-line="115" selection-start-column="17" selection-end-line="123" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/singleadaptar/MyCarListAdapter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2280" max-vertical-offset="3440">
+          <caret line="157" column="41" selection-start-line="157" selection-start-column="41" selection-end-line="157" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/OrderActitity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="4.4548287" vertical-offset="240" max-vertical-offset="4820">
+          <caret line="178" column="5" selection-start-line="178" selection-start-column="5" selection-end-line="178" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_car_info.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3537" max-vertical-offset="5480">
+          <caret line="181" column="40" selection-start-line="181" selection-start-column="40" selection-end-line="181" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/CarInfoActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3014" max-vertical-offset="14900">
+          <caret line="148" column="47" selection-start-line="148" selection-start-column="47" selection-end-line="148" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/AboutActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="269" max-vertical-offset="980">
+          <caret line="45" column="45" selection-start-line="45" selection-start-column="45" selection-end-line="45" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/MyCarActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.029411765" vertical-offset="1420" max-vertical-offset="2100">
+          <caret line="93" column="17" selection-start-line="93" selection-start-column="17" selection-end-line="93" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_myorder.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="649">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_orderitem.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="5880">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_mine.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="924" max-vertical-offset="5040">
+          <caret line="57" column="4" selection-start-line="19" selection-start-column="12" selection-end-line="19" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/customview/LinearLayoutForListView.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="174" max-vertical-offset="780">
+          <caret line="30" column="38" selection-start-line="30" selection-start-column="38" selection-end-line="30" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#342#343#0" expanded="false" />
+            <element signature="e#372#373#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/completedactivity.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4476" max-vertical-offset="5500">
+          <caret line="250" column="49" selection-start-line="250" selection-start-column="49" selection-end-line="250" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/AndroidManifest.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.7689769" vertical-offset="3514" max-vertical-offset="4220">
+          <caret line="199" column="57" selection-start-line="199" selection-start-column="57" selection-end-line="199" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_order.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="1.013913" vertical-offset="3237" max-vertical-offset="4700">
+          <caret line="191" column="67" selection-start-line="191" selection-start-column="67" selection-end-line="191" selection-end-column="67" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/CompletedActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="440">
+          <caret line="13" column="49" selection-start-line="13" selection-start-column="49" selection-end-line="13" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/res/layout/activity_paypage.xml">
+      <provider editor-type-id="android-designer">
+        <state />
+      </provider>
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="4905" max-vertical-offset="5480">
+          <caret line="257" column="8" selection-start-line="257" selection-start-column="8" selection-end-line="257" selection-end-column="8" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/net/wash8/activity/PayPageActivity.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="560" max-vertical-offset="5340">
+          <caret line="59" column="19" selection-start-line="59" selection-start-column="19" selection-end-line="59" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>DingdingCarWash</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Android</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.7</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>DingdingCarWash</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>android-support-v4</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
